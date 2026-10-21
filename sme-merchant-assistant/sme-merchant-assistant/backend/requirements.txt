@@ -1,0 +1,12 @@
+# Versions below are the ones the test-suite was run against.
+fastapi==0.143.3
+uvicorn[standard]==0.54.0
+sqlalchemy==2.1.5
+pydantic==2.14.1
+pydantic-settings==2.16.0
+pandas==3.0.2
+python-multipart==0.0.32
+groq==1.7.0
+# test / dev
+pytest==9.1.1
+httpx==0.28.1
