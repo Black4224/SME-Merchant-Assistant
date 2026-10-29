@@ -1,0 +1,42 @@
+{
+  "name": "sme-merchant-assistant-frontend",
+  "private": true,
+  "version": "0.4.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "lint": "eslint src",
+    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "test:live": "cross-env LIVE_API=1 VITE_API_URL=http://localhost:8000 vitest run src/integration/live.test.jsx",
+    "test:live:rules": "cross-env LIVE_API=1 LIVE_AI=rules VITE_API_URL=http://localhost:8000 vitest run src/integration/live_rules.test.jsx"
+  },
+  "dependencies": {
+    "lucide-react": "^1.59.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "react-router-dom": "^7.18.4",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.5",
+    "@tailwindcss/vite": "^4.3.3",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.3",
+    "@testing-library/user-event": "^14.6.8",
+    "@vitejs/plugin-react": "^6.1.2",
+    "cross-env": "^10.1.0",
+    "eslint": "^9.39.5",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "globals": "^17.13.0",
+    "jsdom": "^30.1.3",
+    "prettier": "^3.9.10",
+    "tailwindcss": "^4.3.3",
+    "undici": "^8.12.3",
+    "vite": "^8.3.4",
+    "vitest": "^5.0.5"
+  }
+}
