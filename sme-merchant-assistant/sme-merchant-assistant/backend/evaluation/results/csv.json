@@ -1,0 +1,157 @@
+{
+ "scenarios": [
+  {
+   "scenario": "injected faults at known rows",
+   "passed": true,
+   "detail": {
+    "injected": 15,
+    "detected": 15,
+    "false_positives": [],
+    "missed": [],
+    "field_correct": 15,
+    "tricky_valid_rows": 14,
+    "tricky_false_positives": [],
+    "missed_detail": [],
+    "blocked_without_skip": true,
+    "imported_exactly_the_valid_rows": true
+   }
+  },
+  {
+   "scenario": "clean file: totals equal the source",
+   "passed": true,
+   "detail": {
+    "preview": {
+     "total": 100,
+     "valid": 100,
+     "duplicate": 0,
+     "invalid": 0
+    },
+    "preview_wrote_nothing": true,
+    "imported": 100,
+    "totals_match_source": true,
+    "mismatches": {}
+   }
+  },
+  {
+   "scenario": "duplicates & re-imports",
+   "passed": true,
+   "detail": {
+    "first_import": 50,
+    "same_file_again": 409,
+    "rows_after_reimport": 50,
+    "overlap_preview": {
+     "total": 60,
+     "valid": 10,
+     "duplicate": 50,
+     "invalid": 0
+    },
+    "overlap_added": 10,
+    "rows_after_overlap": 60,
+    "arabic_digits_variant_duplicates": 50,
+    "repeats_in_one_file_kept": 3,
+    "one_new_repeat_added": 1
+   }
+  },
+  {
+   "scenario": "formats & encodings",
+   "passed": true,
+   "detail": {
+    "utf-8": true,
+    "utf-8-bom": true,
+    "windows-1256": true,
+    "semicolon": true,
+    "tab": true,
+    "arabic headers+values+day-first dates": true
+   }
+  },
+  {
+   "scenario": "column mapping",
+   "passed": true,
+   "detail": {
+    "needs_mapping": true,
+    "after_mapping": {
+     "total": 5,
+     "valid": 5,
+     "duplicate": 0,
+     "invalid": 0
+    },
+    "bad_mappings_rejected": [
+     422,
+     422,
+     422
+    ],
+    "imported": 5
+   }
+  },
+  {
+   "scenario": "bad files fail gracefully (no 5xx)",
+   "passed": true,
+   "detail": {
+    "empty": {
+     "status": 422,
+     "code": "empty_file",
+     "graceful": true
+    },
+    "whitespace": {
+     "status": 422,
+     "code": "empty_file",
+     "graceful": true
+    },
+    "header only": {
+     "status": 422,
+     "code": "no_rows",
+     "graceful": true
+    },
+    "ragged": {
+     "status": 422,
+     "code": "bad_csv",
+     "graceful": true
+    },
+    "binary garbage": {
+     "status": 422,
+     "code": "no_rows",
+     "graceful": true
+    },
+    "html page": {
+     "status": 422,
+     "code": "no_rows",
+     "graceful": true
+    },
+    "oversize (>5MB)": {
+     "status": 413,
+     "code": "payload_too_large",
+     "graceful": true
+    }
+   }
+  },
+  {
+   "scenario": "atomic commit under failure",
+   "passed": true,
+   "detail": {
+    "status_during_failure": 500,
+    "rolled_back_completely": true,
+    "retry_succeeds": true
+   }
+  },
+  {
+   "scenario": "preview pinned to confirmed file",
+   "passed": true,
+   "detail": {
+    "tampered_file": 409,
+    "pinned_file": 201
+   }
+  }
+ ],
+ "passed": 8,
+ "total": 8,
+ "row_detection": {
+  "injected_faults": 15,
+  "true_positives": 15,
+  "false_negatives": 0,
+  "false_positives": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "field_attribution_correct": "15/15",
+  "tricky_valid_rows_tested": 14
+ }
+}
