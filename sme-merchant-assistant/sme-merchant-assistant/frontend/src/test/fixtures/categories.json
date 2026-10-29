@@ -1,0 +1,49 @@
+{
+ "items": [
+  {
+   "id": 3,
+   "name": "إيجار",
+   "kind": "expense"
+  },
+  {
+   "id": 8,
+   "name": "اتصالات وإنترنت",
+   "kind": "expense"
+  },
+  {
+   "id": 5,
+   "name": "رواتب",
+   "kind": "expense"
+  },
+  {
+   "id": 7,
+   "name": "صيانة",
+   "kind": "expense"
+  },
+  {
+   "id": 4,
+   "name": "كهرباء ومولدة",
+   "kind": "expense"
+  },
+  {
+   "id": 9,
+   "name": "مصاريف متفرقة",
+   "kind": "expense"
+  },
+  {
+   "id": 6,
+   "name": "نقل",
+   "kind": "expense"
+  },
+  {
+   "id": 2,
+   "name": "مشتريات بضاعة",
+   "kind": "purchase"
+  },
+  {
+   "id": 1,
+   "name": "مبيعات",
+   "kind": "sale"
+  }
+ ]
+}

@@ -1,0 +1,823 @@
+{
+ "status": "ok",
+ "kind": "answer",
+ "answer_ar": "عندك 7 زبائن عليهم دين، والمجموع 8,470,750 د.ع.",
+ "verified": true,
+ "tools_used": [
+  "get_customer_debts"
+ ],
+ "evidence": [
+  {
+   "tool": "get_customer_debts",
+   "arguments": {
+    "only_overdue": false,
+    "limit": 10
+   },
+   "title_ar": "ديون الزبائن",
+   "basis_ar": "الدين = مبيعات آجلة − دفعات الزبون. الدفعات تُسدَّد من أقدم فاتورة أولاً، والمتأخر = متبقٍّ من فاتورة آجلة عمرها أكثر من مدة الائتمان (30 يوماً افتراضياً).",
+   "date_range": {
+    "start": "2026-10-15",
+    "end": "2026-10-15",
+    "days": 1
+   },
+   "secondary_range": null,
+   "figures": [
+    {
+     "key": "customers_count",
+     "label_ar": "عدد الزبائن المدينين",
+     "value": 7,
+     "display": "7"
+    },
+    {
+     "key": "total_outstanding",
+     "label_ar": "إجمالي الديون",
+     "value": 8470750,
+     "display": "8,470,750 د.ع"
+    },
+    {
+     "key": "total_overdue",
+     "label_ar": "منها متأخر",
+     "value": 4412750,
+     "display": "4,412,750 د.ع"
+    }
+   ],
+   "table": {
+    "columns": [
+     {
+      "key": "customer",
+      "label_ar": "الزبون"
+     },
+     {
+      "key": "outstanding",
+      "label_ar": "المستحق"
+     },
+     {
+      "key": "overdue",
+      "label_ar": "المتأخر"
+     },
+     {
+      "key": "oldest_unpaid",
+      "label_ar": "أقدم فاتورة غير مسددة"
+     },
+     {
+      "key": "open_invoices",
+      "label_ar": "فواتير مفتوحة"
+     }
+    ],
+    "rows": [
+     {
+      "customer": "مطعم السلام (خالد فرحان)",
+      "outstanding": "3,211,750 د.ع",
+      "overdue": "1,502,000 د.ع",
+      "oldest_unpaid": "2026-08-16",
+      "open_invoices": 12
+     },
+     {
+      "customer": "علي صباح الجبوري",
+      "outstanding": "2,541,500 د.ع",
+      "overdue": "1,876,500 د.ع",
+      "oldest_unpaid": "2026-07-14",
+      "open_invoices": 10
+     },
+     {
+      "customer": "حيدر ناصر التميمي",
+      "outstanding": "755,500 د.ع",
+      "overdue": "755,500 د.ع",
+      "oldest_unpaid": "2026-07-05",
+      "open_invoices": 7
+     },
+     {
+      "customer": "زينب حسين العبيدي",
+      "outstanding": "644,750 د.ع",
+      "overdue": "278,750 د.ع",
+      "oldest_unpaid": "2026-08-28",
+      "open_invoices": 6
+     },
+     {
+      "customer": "مصطفى جاسم الساعدي",
+      "outstanding": "511,500 د.ع",
+      "overdue": "0 د.ع",
+      "oldest_unpaid": "2026-09-19",
+      "open_invoices": 3
+     },
+     {
+      "customer": "سارة محمد الربيعي",
+      "outstanding": "428,750 د.ع",
+      "overdue": "0 د.ع",
+      "oldest_unpaid": "2026-09-30",
+      "open_invoices": 3
+     },
+     {
+      "customer": "أحمد كاظم الموسوي",
+      "outstanding": "377,000 د.ع",
+      "overdue": "0 د.ع",
+      "oldest_unpaid": "2026-09-27",
+      "open_invoices": 2
+     }
+    ]
+   },
+   "transaction_ids": [
+    337,
+    347,
+    364,
+    396,
+    418,
+    460,
+    483,
+    507,
+    562,
+    616,
+    635,
+    645,
+    148,
+    157,
+    198,
+    255,
+    317,
+    346,
+    426,
+    454,
+    593,
+    594,
+    93,
+    101,
+    144,
+    236,
+    256,
+    324,
+    395,
+    404,
+    410,
+    441,
+    523,
+    537,
+    644,
+    514,
+    567,
+    572,
+    566,
+    620,
+    639,
+    550,
+    634
+   ],
+   "id_groups": {
+    "open_credit_sales": [
+     337,
+     347,
+     364,
+     396,
+     418,
+     460,
+     483,
+     507,
+     562,
+     616,
+     635,
+     645,
+     148,
+     157,
+     198,
+     255,
+     317,
+     346,
+     426,
+     454,
+     593,
+     594,
+     93,
+     101,
+     144,
+     236,
+     256,
+     324,
+     395,
+     404,
+     410,
+     441,
+     523,
+     537,
+     644,
+     514,
+     567,
+     572,
+     566,
+     620,
+     639,
+     550,
+     634
+    ]
+   },
+   "ids_truncated": false,
+   "transactions": [
+    {
+     "id": 645,
+     "date": "2026-10-15",
+     "type": "sale",
+     "amount_iqd": 260750,
+     "description": "بيع آجل - فاتورة 1112",
+     "reference": "INV-1112",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.516980",
+     "updated_at": "2026-10-27T12:14:35.516982"
+    },
+    {
+     "id": 644,
+     "date": "2026-10-15",
+     "type": "sale",
+     "amount_iqd": 86750,
+     "description": "بيع آجل - فاتورة 1111",
+     "reference": "INV-1111",
+     "payment_method": "credit",
+     "customer": {
+      "id": 2,
+      "name": "زينب حسين العبيدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.516377",
+     "updated_at": "2026-10-27T12:14:35.516378"
+    },
+    {
+     "id": 639,
+     "date": "2026-10-14",
+     "type": "sale",
+     "amount_iqd": 129250,
+     "description": "بيع آجل - فاتورة 1110",
+     "reference": "INV-1110",
+     "payment_method": "credit",
+     "customer": {
+      "id": 4,
+      "name": "سارة محمد الربيعي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.513362",
+     "updated_at": "2026-10-27T12:14:35.513364"
+    },
+    {
+     "id": 635,
+     "date": "2026-10-13",
+     "type": "sale",
+     "amount_iqd": 364000,
+     "description": "بيع آجل - فاتورة 1109",
+     "reference": "INV-1109",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.510825",
+     "updated_at": "2026-10-27T12:14:35.510828"
+    },
+    {
+     "id": 634,
+     "date": "2026-10-13",
+     "type": "sale",
+     "amount_iqd": 211500,
+     "description": "بيع آجل - فاتورة 1108",
+     "reference": "INV-1108",
+     "payment_method": "credit",
+     "customer": {
+      "id": 6,
+      "name": "أحمد كاظم الموسوي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.510113",
+     "updated_at": "2026-10-27T12:14:35.510115"
+    },
+    {
+     "id": 620,
+     "date": "2026-10-10",
+     "type": "sale",
+     "amount_iqd": 138000,
+     "description": "بيع آجل - فاتورة 1107",
+     "reference": "INV-1107",
+     "payment_method": "credit",
+     "customer": {
+      "id": 4,
+      "name": "سارة محمد الربيعي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.501307",
+     "updated_at": "2026-10-27T12:14:35.501308"
+    },
+    {
+     "id": 616,
+     "date": "2026-10-09",
+     "type": "sale",
+     "amount_iqd": 352250,
+     "description": "بيع آجل - فاتورة 1106",
+     "reference": "INV-1106",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.498885",
+     "updated_at": "2026-10-27T12:14:35.498887"
+    },
+    {
+     "id": 594,
+     "date": "2026-10-05",
+     "type": "sale",
+     "amount_iqd": 332500,
+     "description": "بيع آجل - فاتورة 1105",
+     "reference": "INV-1105",
+     "payment_method": "credit",
+     "customer": {
+      "id": 3,
+      "name": "علي صباح الجبوري"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "unreconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.485018",
+     "updated_at": "2026-10-27T12:14:35.485019"
+    },
+    {
+     "id": 593,
+     "date": "2026-10-05",
+     "type": "sale",
+     "amount_iqd": 332500,
+     "description": "بيع آجل - فاتورة 1105",
+     "reference": "INV-1105",
+     "payment_method": "credit",
+     "customer": {
+      "id": 3,
+      "name": "علي صباح الجبوري"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.484419",
+     "updated_at": "2026-10-27T12:14:35.484421"
+    },
+    {
+     "id": 572,
+     "date": "2026-10-01",
+     "type": "sale",
+     "amount_iqd": 238750,
+     "description": "بيع آجل - فاتورة 1104",
+     "reference": "INV-1104",
+     "payment_method": "credit",
+     "customer": {
+      "id": 5,
+      "name": "مصطفى جاسم الساعدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.470627",
+     "updated_at": "2026-10-27T12:14:35.470629"
+    },
+    {
+     "id": 567,
+     "date": "2026-09-30",
+     "type": "sale",
+     "amount_iqd": 119250,
+     "description": "بيع آجل - فاتورة 1103",
+     "reference": "INV-1103",
+     "payment_method": "credit",
+     "customer": {
+      "id": 5,
+      "name": "مصطفى جاسم الساعدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.467490",
+     "updated_at": "2026-10-27T12:14:35.467492"
+    },
+    {
+     "id": 566,
+     "date": "2026-09-30",
+     "type": "sale",
+     "amount_iqd": 161500,
+     "description": "بيع آجل - فاتورة 1102",
+     "reference": "INV-1102",
+     "payment_method": "credit",
+     "customer": {
+      "id": 4,
+      "name": "سارة محمد الربيعي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.466854",
+     "updated_at": "2026-10-27T12:14:35.466856"
+    },
+    {
+     "id": 562,
+     "date": "2026-09-29",
+     "type": "sale",
+     "amount_iqd": 283750,
+     "description": "بيع آجل - فاتورة 1101",
+     "reference": "INV-1101",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.464503",
+     "updated_at": "2026-10-27T12:14:35.464504"
+    },
+    {
+     "id": 550,
+     "date": "2026-09-27",
+     "type": "sale",
+     "amount_iqd": 220750,
+     "description": "بيع آجل - فاتورة 1100",
+     "reference": "INV-1100",
+     "payment_method": "credit",
+     "customer": {
+      "id": 6,
+      "name": "أحمد كاظم الموسوي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.456874",
+     "updated_at": "2026-10-27T12:14:35.456876"
+    },
+    {
+     "id": 537,
+     "date": "2026-09-24",
+     "type": "sale",
+     "amount_iqd": 137750,
+     "description": "بيع آجل - فاتورة 1099",
+     "reference": "INV-1099",
+     "payment_method": "credit",
+     "customer": {
+      "id": 2,
+      "name": "زينب حسين العبيدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.448928",
+     "updated_at": "2026-10-27T12:14:35.448930"
+    },
+    {
+     "id": 523,
+     "date": "2026-09-21",
+     "type": "sale",
+     "amount_iqd": 141500,
+     "description": "بيع آجل - فاتورة 1097",
+     "reference": "INV-1097",
+     "payment_method": "credit",
+     "customer": {
+      "id": 2,
+      "name": "زينب حسين العبيدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.440191",
+     "updated_at": "2026-10-27T12:14:35.440192"
+    },
+    {
+     "id": 514,
+     "date": "2026-09-19",
+     "type": "sale",
+     "amount_iqd": 253750,
+     "description": "بيع آجل - فاتورة 1096",
+     "reference": "INV-1096",
+     "payment_method": "credit",
+     "customer": {
+      "id": 5,
+      "name": "مصطفى جاسم الساعدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.434598",
+     "updated_at": "2026-10-27T12:14:35.434599"
+    },
+    {
+     "id": 507,
+     "date": "2026-09-17",
+     "type": "sale",
+     "amount_iqd": 449000,
+     "description": "بيع آجل - فاتورة 1095",
+     "reference": "INV-1095",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.430371",
+     "updated_at": "2026-10-27T12:14:35.430373"
+    },
+    {
+     "id": 483,
+     "date": "2026-09-13",
+     "type": "sale",
+     "amount_iqd": 250500,
+     "description": "بيع آجل - فاتورة 1093",
+     "reference": "INV-1093",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.414620",
+     "updated_at": "2026-10-27T12:14:35.414622"
+    },
+    {
+     "id": 460,
+     "date": "2026-09-08",
+     "type": "sale",
+     "amount_iqd": 126750,
+     "description": "بيع آجل - فاتورة 1091",
+     "reference": "INV-1091",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.400771",
+     "updated_at": "2026-10-27T12:14:35.400773"
+    },
+    {
+     "id": 454,
+     "date": "2026-09-07",
+     "type": "sale",
+     "amount_iqd": 332750,
+     "description": "بيع آجل - فاتورة 1089",
+     "reference": "INV-1089",
+     "payment_method": "credit",
+     "customer": {
+      "id": 3,
+      "name": "علي صباح الجبوري"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.397156",
+     "updated_at": "2026-10-27T12:14:35.397158"
+    },
+    {
+     "id": 441,
+     "date": "2026-09-04",
+     "type": "sale",
+     "amount_iqd": 84500,
+     "description": "بيع آجل - فاتورة 1088",
+     "reference": "INV-1088",
+     "payment_method": "credit",
+     "customer": {
+      "id": 2,
+      "name": "زينب حسين العبيدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.389273",
+     "updated_at": "2026-10-27T12:14:35.389275"
+    },
+    {
+     "id": 426,
+     "date": "2026-09-02",
+     "type": "sale",
+     "amount_iqd": 100750,
+     "description": "بيع آجل - فاتورة 1086",
+     "reference": "INV-1086",
+     "payment_method": "credit",
+     "customer": {
+      "id": 3,
+      "name": "علي صباح الجبوري"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.380451",
+     "updated_at": "2026-10-27T12:14:35.380452"
+    },
+    {
+     "id": 418,
+     "date": "2026-08-31",
+     "type": "sale",
+     "amount_iqd": 123250,
+     "description": "بيع آجل - فاتورة 1085",
+     "reference": "INV-1085",
+     "payment_method": "credit",
+     "customer": {
+      "id": 1,
+      "name": "مطعم السلام (خالد فرحان)"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.375620",
+     "updated_at": "2026-10-27T12:14:35.375622"
+    },
+    {
+     "id": 410,
+     "date": "2026-08-29",
+     "type": "sale",
+     "amount_iqd": 123500,
+     "description": "بيع آجل - فاتورة 1084",
+     "reference": "INV-1084",
+     "payment_method": "credit",
+     "customer": {
+      "id": 2,
+      "name": "زينب حسين العبيدي"
+     },
+     "supplier": null,
+     "category": {
+      "id": 1,
+      "name": "مبيعات"
+     },
+     "source": "seed",
+     "import_batch_id": null,
+     "reconciliation_status": "reconciled",
+     "flags": [],
+     "created_at": "2026-10-27T12:14:35.370852",
+     "updated_at": "2026-10-27T12:14:35.370854"
+    }
+   ],
+   "warnings": [],
+   "is_estimate": false,
+   "has_data": true,
+   "evidence_kind": "transactions"
+  }
+ ],
+ "warnings": [],
+ "unsupported_numbers": [],
+ "degraded": false
+}

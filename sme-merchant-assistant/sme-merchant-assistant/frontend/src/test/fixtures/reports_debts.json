@@ -1,0 +1,606 @@
+{
+ "as_of": "2026-10-15",
+ "credit_terms_days": 30,
+ "total_outstanding": 8470750,
+ "total_overdue": 4412750,
+ "customers": [
+  {
+   "customer_id": 1,
+   "name": "مطعم السلام (خالد فرحان)",
+   "credit_sales_total": 7007750,
+   "payments_total": 3796000,
+   "outstanding": 3211750,
+   "overdue_amount": 1502000,
+   "last_payment_date": "2026-10-10",
+   "oldest_unpaid_date": "2026-08-16",
+   "open_invoices": [
+    {
+     "transaction_id": 337,
+     "date": "2026-08-16",
+     "original_amount": 138500,
+     "remaining": 11750,
+     "age_days": 60,
+     "overdue": true
+    },
+    {
+     "transaction_id": 347,
+     "date": "2026-08-18",
+     "original_amount": 427250,
+     "remaining": 427250,
+     "age_days": 58,
+     "overdue": true
+    },
+    {
+     "transaction_id": 364,
+     "date": "2026-08-21",
+     "original_amount": 309750,
+     "remaining": 309750,
+     "age_days": 55,
+     "overdue": true
+    },
+    {
+     "transaction_id": 396,
+     "date": "2026-08-27",
+     "original_amount": 252750,
+     "remaining": 252750,
+     "age_days": 49,
+     "overdue": true
+    },
+    {
+     "transaction_id": 418,
+     "date": "2026-08-31",
+     "original_amount": 123250,
+     "remaining": 123250,
+     "age_days": 45,
+     "overdue": true
+    },
+    {
+     "transaction_id": 460,
+     "date": "2026-09-08",
+     "original_amount": 126750,
+     "remaining": 126750,
+     "age_days": 37,
+     "overdue": true
+    },
+    {
+     "transaction_id": 483,
+     "date": "2026-09-13",
+     "original_amount": 250500,
+     "remaining": 250500,
+     "age_days": 32,
+     "overdue": true
+    },
+    {
+     "transaction_id": 507,
+     "date": "2026-09-17",
+     "original_amount": 449000,
+     "remaining": 449000,
+     "age_days": 28,
+     "overdue": false
+    },
+    {
+     "transaction_id": 562,
+     "date": "2026-09-29",
+     "original_amount": 283750,
+     "remaining": 283750,
+     "age_days": 16,
+     "overdue": false
+    },
+    {
+     "transaction_id": 616,
+     "date": "2026-10-09",
+     "original_amount": 352250,
+     "remaining": 352250,
+     "age_days": 6,
+     "overdue": false
+    },
+    {
+     "transaction_id": 635,
+     "date": "2026-10-13",
+     "original_amount": 364000,
+     "remaining": 364000,
+     "age_days": 2,
+     "overdue": false
+    },
+    {
+     "transaction_id": 645,
+     "date": "2026-10-15",
+     "original_amount": 260750,
+     "remaining": 260750,
+     "age_days": 0,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    7,
+    73,
+    87,
+    134,
+    152,
+    185,
+    221,
+    248,
+    271,
+    292,
+    312,
+    337,
+    347,
+    364,
+    396,
+    418,
+    460,
+    483,
+    507,
+    562,
+    616,
+    635,
+    645
+   ],
+   "payment_ids": [
+    102,
+    135,
+    326,
+    442,
+    621
+   ]
+  },
+  {
+   "customer_id": 3,
+   "name": "علي صباح الجبوري",
+   "credit_sales_total": 3763500,
+   "payments_total": 1222000,
+   "outstanding": 2541500,
+   "overdue_amount": 1876500,
+   "last_payment_date": "2026-09-03",
+   "oldest_unpaid_date": "2026-07-14",
+   "open_invoices": [
+    {
+     "transaction_id": 148,
+     "date": "2026-07-14",
+     "original_amount": 215250,
+     "remaining": 198500,
+     "age_days": 93,
+     "overdue": true
+    },
+    {
+     "transaction_id": 157,
+     "date": "2026-07-16",
+     "original_amount": 334000,
+     "remaining": 334000,
+     "age_days": 91,
+     "overdue": true
+    },
+    {
+     "transaction_id": 198,
+     "date": "2026-07-24",
+     "original_amount": 343500,
+     "remaining": 343500,
+     "age_days": 83,
+     "overdue": true
+    },
+    {
+     "transaction_id": 255,
+     "date": "2026-08-02",
+     "original_amount": 248250,
+     "remaining": 248250,
+     "age_days": 74,
+     "overdue": true
+    },
+    {
+     "transaction_id": 317,
+     "date": "2026-08-13",
+     "original_amount": 115250,
+     "remaining": 115250,
+     "age_days": 63,
+     "overdue": true
+    },
+    {
+     "transaction_id": 346,
+     "date": "2026-08-18",
+     "original_amount": 203500,
+     "remaining": 203500,
+     "age_days": 58,
+     "overdue": true
+    },
+    {
+     "transaction_id": 426,
+     "date": "2026-09-02",
+     "original_amount": 100750,
+     "remaining": 100750,
+     "age_days": 43,
+     "overdue": true
+    },
+    {
+     "transaction_id": 454,
+     "date": "2026-09-07",
+     "original_amount": 332750,
+     "remaining": 332750,
+     "age_days": 38,
+     "overdue": true
+    },
+    {
+     "transaction_id": 593,
+     "date": "2026-10-05",
+     "original_amount": 332500,
+     "remaining": 332500,
+     "age_days": 10,
+     "overdue": false
+    },
+    {
+     "transaction_id": 594,
+     "date": "2026-10-05",
+     "original_amount": 332500,
+     "remaining": 332500,
+     "age_days": 10,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    16,
+    55,
+    99,
+    114,
+    127,
+    148,
+    157,
+    198,
+    255,
+    317,
+    346,
+    426,
+    454,
+    593,
+    594
+   ],
+   "payment_ids": [
+    40,
+    149,
+    434
+   ]
+  },
+  {
+   "customer_id": 7,
+   "name": "حيدر ناصر التميمي",
+   "credit_sales_total": 755500,
+   "payments_total": 0,
+   "outstanding": 755500,
+   "overdue_amount": 755500,
+   "last_payment_date": null,
+   "oldest_unpaid_date": "2026-07-05",
+   "open_invoices": [
+    {
+     "transaction_id": 93,
+     "date": "2026-07-05",
+     "original_amount": 138000,
+     "remaining": 138000,
+     "age_days": 102,
+     "overdue": true
+    },
+    {
+     "transaction_id": 101,
+     "date": "2026-07-06",
+     "original_amount": 65750,
+     "remaining": 65750,
+     "age_days": 101,
+     "overdue": true
+    },
+    {
+     "transaction_id": 144,
+     "date": "2026-07-13",
+     "original_amount": 119500,
+     "remaining": 119500,
+     "age_days": 94,
+     "overdue": true
+    },
+    {
+     "transaction_id": 236,
+     "date": "2026-07-30",
+     "original_amount": 172250,
+     "remaining": 172250,
+     "age_days": 77,
+     "overdue": true
+    },
+    {
+     "transaction_id": 256,
+     "date": "2026-08-02",
+     "original_amount": 79000,
+     "remaining": 79000,
+     "age_days": 74,
+     "overdue": true
+    },
+    {
+     "transaction_id": 324,
+     "date": "2026-08-14",
+     "original_amount": 55000,
+     "remaining": 55000,
+     "age_days": 62,
+     "overdue": true
+    },
+    {
+     "transaction_id": 395,
+     "date": "2026-08-27",
+     "original_amount": 126000,
+     "remaining": 126000,
+     "age_days": 49,
+     "overdue": true
+    }
+   ],
+   "credit_sale_ids": [
+    93,
+    101,
+    144,
+    236,
+    256,
+    324,
+    395
+   ],
+   "payment_ids": []
+  },
+  {
+   "customer_id": 2,
+   "name": "زينب حسين العبيدي",
+   "credit_sales_total": 2044250,
+   "payments_total": 1399500,
+   "outstanding": 644750,
+   "overdue_amount": 278750,
+   "last_payment_date": "2026-09-16",
+   "oldest_unpaid_date": "2026-08-28",
+   "open_invoices": [
+    {
+     "transaction_id": 404,
+     "date": "2026-08-28",
+     "original_amount": 86250,
+     "remaining": 70750,
+     "age_days": 48,
+     "overdue": true
+    },
+    {
+     "transaction_id": 410,
+     "date": "2026-08-29",
+     "original_amount": 123500,
+     "remaining": 123500,
+     "age_days": 47,
+     "overdue": true
+    },
+    {
+     "transaction_id": 441,
+     "date": "2026-09-04",
+     "original_amount": 84500,
+     "remaining": 84500,
+     "age_days": 41,
+     "overdue": true
+    },
+    {
+     "transaction_id": 523,
+     "date": "2026-09-21",
+     "original_amount": 141500,
+     "remaining": 141500,
+     "age_days": 24,
+     "overdue": false
+    },
+    {
+     "transaction_id": 537,
+     "date": "2026-09-24",
+     "original_amount": 137750,
+     "remaining": 137750,
+     "age_days": 21,
+     "overdue": false
+    },
+    {
+     "transaction_id": 644,
+     "date": "2026-10-15",
+     "original_amount": 86750,
+     "remaining": 86750,
+     "age_days": 0,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    12,
+    37,
+    121,
+    243,
+    267,
+    279,
+    291,
+    307,
+    352,
+    369,
+    390,
+    404,
+    410,
+    441,
+    523,
+    537,
+    644
+   ],
+   "payment_ids": [
+    65,
+    116,
+    191,
+    330,
+    485,
+    501
+   ]
+  },
+  {
+   "customer_id": 5,
+   "name": "مصطفى جاسم الساعدي",
+   "credit_sales_total": 2593250,
+   "payments_total": 2081750,
+   "outstanding": 511500,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-09-26",
+   "oldest_unpaid_date": "2026-09-19",
+   "open_invoices": [
+    {
+     "transaction_id": 514,
+     "date": "2026-09-19",
+     "original_amount": 253750,
+     "remaining": 153500,
+     "age_days": 26,
+     "overdue": false
+    },
+    {
+     "transaction_id": 567,
+     "date": "2026-09-30",
+     "original_amount": 119250,
+     "remaining": 119250,
+     "age_days": 15,
+     "overdue": false
+    },
+    {
+     "transaction_id": 572,
+     "date": "2026-10-01",
+     "original_amount": 238750,
+     "remaining": 238750,
+     "age_days": 14,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    23,
+    51,
+    86,
+    100,
+    214,
+    231,
+    235,
+    262,
+    319,
+    500,
+    514,
+    567,
+    572
+   ],
+   "payment_ids": [
+    56,
+    222,
+    272,
+    491,
+    547
+   ]
+  },
+  {
+   "customer_id": 4,
+   "name": "سارة محمد الربيعي",
+   "credit_sales_total": 1392750,
+   "payments_total": 964000,
+   "outstanding": 428750,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-09-16",
+   "oldest_unpaid_date": "2026-09-30",
+   "open_invoices": [
+    {
+     "transaction_id": 566,
+     "date": "2026-09-30",
+     "original_amount": 161500,
+     "remaining": 161500,
+     "age_days": 15,
+     "overdue": false
+    },
+    {
+     "transaction_id": 620,
+     "date": "2026-10-10",
+     "original_amount": 138000,
+     "remaining": 138000,
+     "age_days": 5,
+     "overdue": false
+    },
+    {
+     "transaction_id": 639,
+     "date": "2026-10-14",
+     "original_amount": 129250,
+     "remaining": 129250,
+     "age_days": 1,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    22,
+    38,
+    50,
+    69,
+    107,
+    115,
+    207,
+    213,
+    318,
+    433,
+    566,
+    620,
+    639
+   ],
+   "payment_ids": [
+    128,
+    176,
+    186,
+    215,
+    331,
+    502
+   ]
+  },
+  {
+   "customer_id": 6,
+   "name": "أحمد كاظم الموسوي",
+   "credit_sales_total": 3813250,
+   "payments_total": 3436250,
+   "outstanding": 377000,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-10-08",
+   "oldest_unpaid_date": "2026-09-27",
+   "open_invoices": [
+    {
+     "transaction_id": 550,
+     "date": "2026-09-27",
+     "original_amount": 220750,
+     "remaining": 165500,
+     "age_days": 18,
+     "overdue": false
+    },
+    {
+     "transaction_id": 634,
+     "date": "2026-10-13",
+     "original_amount": 211500,
+     "remaining": 211500,
+     "age_days": 2,
+     "overdue": false
+    }
+   ],
+   "credit_sale_ids": [
+    30,
+    49,
+    80,
+    184,
+    203,
+    220,
+    230,
+    247,
+    254,
+    278,
+    301,
+    311,
+    336,
+    363,
+    368,
+    375,
+    380,
+    389,
+    468,
+    550,
+    634
+   ],
+   "payment_ids": [
+    39,
+    109,
+    166,
+    199,
+    325,
+    357,
+    397,
+    484,
+    608
+   ]
+  }
+ ]
+}

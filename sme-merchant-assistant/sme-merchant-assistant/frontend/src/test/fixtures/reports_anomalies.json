@@ -1,0 +1,495 @@
+{
+ "count": 17,
+ "by_code": {
+  "possible_duplicate": 1,
+  "future_date": 1,
+  "amount_outlier": 1,
+  "unreconciled": 14
+ },
+ "items": [
+  {
+   "transaction_id": 594,
+   "code": "possible_duplicate",
+   "severity": "high",
+   "message_ar": "يبدو مكرراً: نفس التاريخ والمبلغ والوصف مثل المعاملة #593",
+   "related_ids": [
+    593
+   ],
+   "transaction": {
+    "id": 594,
+    "date": "2026-10-05",
+    "type": "sale",
+    "amount_iqd": 332500,
+    "description": "بيع آجل - فاتورة 1105",
+    "reference": "INV-1105",
+    "payment_method": "credit",
+    "customer": {
+     "id": 3,
+     "name": "علي صباح الجبوري"
+    },
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.485018",
+    "updated_at": "2026-10-27T12:14:35.485019"
+   }
+  },
+  {
+   "transaction_id": 650,
+   "code": "future_date",
+   "severity": "high",
+   "message_ar": "التاريخ 2026-10-18 بعد تاريخ اليوم",
+   "related_ids": [],
+   "transaction": {
+    "id": 650,
+    "date": "2026-10-18",
+    "type": "sale",
+    "amount_iqd": 275000,
+    "description": "مبيعات نقدية - تاريخ مُدخل بالخطأ",
+    "reference": "DAY-TYPO-01",
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.519958",
+    "updated_at": "2026-10-27T12:14:35.519960"
+   }
+  },
+  {
+   "transaction_id": 595,
+   "code": "amount_outlier",
+   "severity": "medium",
+   "message_ar": "المبلغ 3,950,000 د.ع أكبر بكثير من المعتاد (الوسيط 420,000 د.ع)",
+   "related_ids": [],
+   "transaction": {
+    "id": 595,
+    "date": "2026-10-05",
+    "type": "expense",
+    "amount_iqd": 3950000,
+    "description": "اشتراك المولدة الأهلية",
+    "reference": null,
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 4,
+     "name": "كهرباء ومولدة"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.485580",
+    "updated_at": "2026-10-27T12:14:35.485582"
+   }
+  },
+  {
+   "transaction_id": 11,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 11,
+    "date": "2026-06-20",
+    "type": "sale",
+    "amount_iqd": 163500,
+    "description": "بيع بالدفع الإلكتروني عبر كي كارد",
+    "reference": "QI-899590",
+    "payment_method": "bank",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.119563",
+    "updated_at": "2026-10-27T12:14:35.119565"
+   }
+  },
+  {
+   "transaction_id": 85,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 85,
+    "date": "2026-07-03",
+    "type": "sale",
+    "amount_iqd": 170750,
+    "description": "بيع بالدفع الإلكتروني عبر كي كارد",
+    "reference": "QI-903102",
+    "payment_method": "bank",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.166741",
+    "updated_at": "2026-10-27T12:14:35.166743"
+   }
+  },
+  {
+   "transaction_id": 286,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 286,
+    "date": "2026-08-07",
+    "type": "sale",
+    "amount_iqd": 81750,
+    "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+    "reference": "ZC-428465",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.293220",
+    "updated_at": "2026-10-27T12:14:35.293222"
+   }
+  },
+  {
+   "transaction_id": 341,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 341,
+    "date": "2026-08-17",
+    "type": "sale",
+    "amount_iqd": 43000,
+    "description": "بيع بالدفع الإلكتروني عبر فاست باي",
+    "reference": "FP-319484",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.327613",
+    "updated_at": "2026-10-27T12:14:35.327615"
+   }
+  },
+  {
+   "transaction_id": 417,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 417,
+    "date": "2026-08-31",
+    "type": "sale",
+    "amount_iqd": 64500,
+    "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+    "reference": "ZC-418102",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.374988",
+    "updated_at": "2026-10-27T12:14:35.374989"
+   }
+  },
+  {
+   "transaction_id": 452,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 452,
+    "date": "2026-09-07",
+    "type": "sale",
+    "amount_iqd": 180250,
+    "description": "بيع بالدفع الإلكتروني عبر فاست باي",
+    "reference": "FP-116067",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.395947",
+    "updated_at": "2026-10-27T12:14:35.395949"
+   }
+  },
+  {
+   "transaction_id": 555,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 555,
+    "date": "2026-09-28",
+    "type": "sale",
+    "amount_iqd": 69000,
+    "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+    "reference": "ZC-371969",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.460245",
+    "updated_at": "2026-10-27T12:14:35.460247"
+   }
+  },
+  {
+   "transaction_id": 583,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 583,
+    "date": "2026-10-03",
+    "type": "sale",
+    "amount_iqd": 213750,
+    "description": "بيع بالدفع الإلكتروني عبر كي كارد",
+    "reference": "QI-999604",
+    "payment_method": "bank",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.477933",
+    "updated_at": "2026-10-27T12:14:35.477935"
+   }
+  },
+  {
+   "transaction_id": 594,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 594,
+    "date": "2026-10-05",
+    "type": "sale",
+    "amount_iqd": 332500,
+    "description": "بيع آجل - فاتورة 1105",
+    "reference": "INV-1105",
+    "payment_method": "credit",
+    "customer": {
+     "id": 3,
+     "name": "علي صباح الجبوري"
+    },
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.485018",
+    "updated_at": "2026-10-27T12:14:35.485019"
+   }
+  },
+  {
+   "transaction_id": 595,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 595,
+    "date": "2026-10-05",
+    "type": "expense",
+    "amount_iqd": 3950000,
+    "description": "اشتراك المولدة الأهلية",
+    "reference": null,
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 4,
+     "name": "كهرباء ومولدة"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.485580",
+    "updated_at": "2026-10-27T12:14:35.485582"
+   }
+  },
+  {
+   "transaction_id": 619,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 619,
+    "date": "2026-10-10",
+    "type": "sale",
+    "amount_iqd": 72750,
+    "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+    "reference": "ZC-448405",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.500662",
+    "updated_at": "2026-10-27T12:14:35.500663"
+   }
+  },
+  {
+   "transaction_id": 638,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 638,
+    "date": "2026-10-14",
+    "type": "sale",
+    "amount_iqd": 148000,
+    "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+    "reference": "ZC-686976",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.512778",
+    "updated_at": "2026-10-27T12:14:35.512780"
+   }
+  },
+  {
+   "transaction_id": 643,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 643,
+    "date": "2026-10-15",
+    "type": "sale",
+    "amount_iqd": 104500,
+    "description": "بيع بالدفع الإلكتروني عبر فاست باي",
+    "reference": "FP-276712",
+    "payment_method": "digital",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.515789",
+    "updated_at": "2026-10-27T12:14:35.515791"
+   }
+  },
+  {
+   "transaction_id": 650,
+   "code": "unreconciled",
+   "severity": "low",
+   "message_ar": "لم تتم مطابقتها بعد",
+   "related_ids": [],
+   "transaction": {
+    "id": 650,
+    "date": "2026-10-18",
+    "type": "sale",
+    "amount_iqd": 275000,
+    "description": "مبيعات نقدية - تاريخ مُدخل بالخطأ",
+    "reference": "DAY-TYPO-01",
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": {
+     "id": 1,
+     "name": "مبيعات"
+    },
+    "source": "seed",
+    "import_batch_id": null,
+    "reconciliation_status": "unreconciled",
+    "flags": [],
+    "created_at": "2026-10-27T12:14:35.519958",
+    "updated_at": "2026-10-27T12:14:35.519960"
+   }
+  }
+ ]
+}

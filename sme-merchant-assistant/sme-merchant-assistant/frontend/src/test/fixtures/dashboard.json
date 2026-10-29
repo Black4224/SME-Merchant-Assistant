@@ -1,0 +1,610 @@
+{
+ "business": {
+  "name": "بقالة الرافدين التجريبية",
+  "currency": "د.ع",
+  "is_demo_data": true
+ },
+ "reference_date": "2026-10-15",
+ "period": {
+  "name": "this_month",
+  "start": "2026-10-01",
+  "end": "2026-10-15",
+  "days": 15
+ },
+ "today": {
+  "date_range": {
+   "start": "2026-10-15",
+   "end": "2026-10-15",
+   "days": 1
+  },
+  "sales_total": 2042500,
+  "sales_collected": 1695000,
+  "sales_credit": 347500,
+  "customer_payments": 0,
+  "expenses_total": 11000,
+  "purchases_total": 0,
+  "purchases_credit": 0,
+  "supplier_payments": 5065000,
+  "cash_in": 1695000,
+  "cash_out": 5076000,
+  "net_cash_flow": -3381000,
+  "estimated_profit": 2031500,
+  "profit_basis": "purchases_basis_estimate",
+  "profit_note": "الربح تقديري: المبيعات − مشتريات البضاعة − المصاريف التشغيلية. لا يوجد تتبع للمخزون أو لكلفة البضاعة المباعة الفعلية.",
+  "transaction_counts": {
+   "sale": 5,
+   "supplier_payment": 3,
+   "expense": 1
+  },
+  "transaction_ids": {},
+  "excluded_count": 0
+ },
+ "period_summary": {
+  "date_range": {
+   "start": "2026-10-01",
+   "end": "2026-10-15",
+   "days": 15
+  },
+  "sales_total": 21582250,
+  "sales_collected": 19136000,
+  "sales_credit": 2446250,
+  "customer_payments": 1156500,
+  "expenses_total": 6030000,
+  "purchases_total": 13125000,
+  "purchases_credit": 9825000,
+  "supplier_payments": 12325000,
+  "cash_in": 20292500,
+  "cash_out": 21655000,
+  "net_cash_flow": -1362500,
+  "estimated_profit": 2427250,
+  "profit_basis": "purchases_basis_estimate",
+  "profit_note": "الربح تقديري: المبيعات − مشتريات البضاعة − المصاريف التشغيلية. لا يوجد تتبع للمخزون أو لكلفة البضاعة المباعة الفعلية.",
+  "transaction_counts": {
+   "sale": 54,
+   "supplier_payment": 7,
+   "expense": 12,
+   "customer_payment": 3,
+   "supplier_purchase": 4
+  },
+  "transaction_ids": {},
+  "excluded_count": 0
+ },
+ "outstanding_debts": {
+  "total": 8470750,
+  "customers_count": 7,
+  "overdue_total": 4412750
+ },
+ "recent_transactions": [
+  {
+   "id": 650,
+   "date": "2026-10-18",
+   "type": "sale",
+   "amount_iqd": 275000,
+   "description": "مبيعات نقدية - تاريخ مُدخل بالخطأ",
+   "reference": "DAY-TYPO-01",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "unreconciled",
+   "flags": [
+    {
+     "transaction_id": 650,
+     "code": "future_date",
+     "severity": "high",
+     "message_ar": "التاريخ 2026-10-18 بعد تاريخ اليوم",
+     "related_ids": []
+    },
+    {
+     "transaction_id": 650,
+     "code": "unreconciled",
+     "severity": "low",
+     "message_ar": "لم تتم مطابقتها بعد",
+     "related_ids": []
+    }
+   ],
+   "created_at": "2026-10-27T12:14:35.519958",
+   "updated_at": "2026-10-27T12:14:35.519960"
+  },
+  {
+   "id": 649,
+   "date": "2026-10-15",
+   "type": "expense",
+   "amount_iqd": 11000,
+   "description": "مصاريف نثرية (أكياس، تنظيف)",
+   "reference": null,
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 9,
+    "name": "مصاريف متفرقة"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.519320",
+   "updated_at": "2026-10-27T12:14:35.519322"
+  },
+  {
+   "id": 648,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 1935000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-340",
+   "payment_method": "bank",
+   "customer": null,
+   "supplier": {
+    "id": 2,
+    "name": "مؤسسة دجلة للمنظفات"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.518735",
+   "updated_at": "2026-10-27T12:14:35.518736"
+  },
+  {
+   "id": 647,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 555000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-339",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": {
+    "id": 1,
+    "name": "مخزن الرافدين بالجملة"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.518168",
+   "updated_at": "2026-10-27T12:14:35.518170"
+  },
+  {
+   "id": 646,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 2575000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-338",
+   "payment_method": "bank",
+   "customer": null,
+   "supplier": {
+    "id": 3,
+    "name": "شركة النهرين للمواد الغذائية"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.517577",
+   "updated_at": "2026-10-27T12:14:35.517579"
+  },
+  {
+   "id": 645,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 260750,
+   "description": "بيع آجل - فاتورة 1112",
+   "reference": "INV-1112",
+   "payment_method": "credit",
+   "customer": {
+    "id": 1,
+    "name": "مطعم السلام (خالد فرحان)"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.516980",
+   "updated_at": "2026-10-27T12:14:35.516982"
+  },
+  {
+   "id": 644,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 86750,
+   "description": "بيع آجل - فاتورة 1111",
+   "reference": "INV-1111",
+   "payment_method": "credit",
+   "customer": {
+    "id": 2,
+    "name": "زينب حسين العبيدي"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.516377",
+   "updated_at": "2026-10-27T12:14:35.516378"
+  },
+  {
+   "id": 643,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 104500,
+   "description": "بيع بالدفع الإلكتروني عبر فاست باي",
+   "reference": "FP-276712",
+   "payment_method": "digital",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "unreconciled",
+   "flags": [
+    {
+     "transaction_id": 643,
+     "code": "unreconciled",
+     "severity": "low",
+     "message_ar": "لم تتم مطابقتها بعد",
+     "related_ids": []
+    }
+   ],
+   "created_at": "2026-10-27T12:14:35.515789",
+   "updated_at": "2026-10-27T12:14:35.515791"
+  },
+  {
+   "id": 642,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 779500,
+   "description": "مبيعات نقدية - الفترة المسائية",
+   "reference": "DAY-20261015-PM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.515146",
+   "updated_at": "2026-10-27T12:14:35.515148"
+  },
+  {
+   "id": 641,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 811000,
+   "description": "مبيعات نقدية - الفترة الصباحية",
+   "reference": "DAY-20261015-AM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.514508",
+   "updated_at": "2026-10-27T12:14:35.514510"
+  }
+ ],
+ "chart": [
+  {
+   "date": "2026-10-01",
+   "sales": 1276000,
+   "expenses": 1518750,
+   "purchases": 0,
+   "cash_in": 1037250,
+   "cash_out": 3288750
+  },
+  {
+   "date": "2026-10-02",
+   "sales": 1099500,
+   "expenses": 259250,
+   "purchases": 0,
+   "cash_in": 1338500,
+   "cash_out": 259250
+  },
+  {
+   "date": "2026-10-03",
+   "sales": 1198000,
+   "expenses": 0,
+   "purchases": 0,
+   "cash_in": 1198000,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-04",
+   "sales": 1686500,
+   "expenses": 0,
+   "purchases": 2970000,
+   "cash_in": 1686500,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-05",
+   "sales": 1956000,
+   "expenses": 4057250,
+   "purchases": 0,
+   "cash_in": 1291000,
+   "cash_out": 4057250
+  },
+  {
+   "date": "2026-10-06",
+   "sales": 978250,
+   "expenses": 0,
+   "purchases": 0,
+   "cash_in": 978250,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-07",
+   "sales": 1633000,
+   "expenses": 0,
+   "purchases": 3865000,
+   "cash_in": 1633000,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-08",
+   "sales": 1702500,
+   "expenses": 0,
+   "purchases": 0,
+   "cash_in": 1757750,
+   "cash_out": 5490000
+  },
+  {
+   "date": "2026-10-09",
+   "sales": 1371000,
+   "expenses": 0,
+   "purchases": 0,
+   "cash_in": 1018750,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-10",
+   "sales": 1383750,
+   "expenses": 45000,
+   "purchases": 0,
+   "cash_in": 2108000,
+   "cash_out": 45000
+  },
+  {
+   "date": "2026-10-11",
+   "sales": 1200750,
+   "expenses": 27250,
+   "purchases": 2990000,
+   "cash_in": 1200750,
+   "cash_out": 27250
+  },
+  {
+   "date": "2026-10-12",
+   "sales": 1390000,
+   "expenses": 111500,
+   "purchases": 0,
+   "cash_in": 1390000,
+   "cash_out": 111500
+  },
+  {
+   "date": "2026-10-13",
+   "sales": 1423000,
+   "expenses": 0,
+   "purchases": 0,
+   "cash_in": 847500,
+   "cash_out": 0
+  },
+  {
+   "date": "2026-10-14",
+   "sales": 1241500,
+   "expenses": 0,
+   "purchases": 3300000,
+   "cash_in": 1112250,
+   "cash_out": 3300000
+  },
+  {
+   "date": "2026-10-15",
+   "sales": 2042500,
+   "expenses": 11000,
+   "purchases": 0,
+   "cash_in": 1695000,
+   "cash_out": 5076000
+  }
+ ],
+ "weekly_performance": {
+  "current": {
+   "date_range": {
+    "start": "2026-10-11",
+    "end": "2026-10-15",
+    "days": 5
+   },
+   "sales_total": 7297750,
+   "sales_collected": 6245500,
+   "sales_credit": 1052250,
+   "customer_payments": 0,
+   "expenses_total": 149750,
+   "purchases_total": 6290000,
+   "purchases_credit": 2990000,
+   "supplier_payments": 5065000,
+   "cash_in": 6245500,
+   "cash_out": 8514750,
+   "net_cash_flow": -2269250,
+   "estimated_profit": 858000,
+   "profit_basis": "purchases_basis_estimate",
+   "profit_note": "الربح تقديري: المبيعات − مشتريات البضاعة − المصاريف التشغيلية. لا يوجد تتبع للمخزون أو لكلفة البضاعة المباعة الفعلية.",
+   "transaction_counts": {
+    "sale": 18,
+    "supplier_purchase": 2,
+    "expense": 4,
+    "supplier_payment": 3
+   },
+   "transaction_ids": {},
+   "excluded_count": 0
+  },
+  "previous": {
+   "date_range": {
+    "start": "2026-10-04",
+    "end": "2026-10-08",
+    "days": 5
+   },
+   "sales_total": 7956250,
+   "sales_collected": 7291250,
+   "sales_credit": 665000,
+   "customer_payments": 55250,
+   "expenses_total": 4057250,
+   "purchases_total": 6835000,
+   "purchases_credit": 6835000,
+   "supplier_payments": 5490000,
+   "cash_in": 7346500,
+   "cash_out": 9547250,
+   "net_cash_flow": -2200750,
+   "estimated_profit": -2936000,
+   "profit_basis": "purchases_basis_estimate",
+   "profit_note": "الربح تقديري: المبيعات − مشتريات البضاعة − المصاريف التشغيلية. لا يوجد تتبع للمخزون أو لكلفة البضاعة المباعة الفعلية.",
+   "transaction_counts": {
+    "sale": 18,
+    "supplier_purchase": 2,
+    "expense": 3,
+    "customer_payment": 1,
+    "supplier_payment": 3
+   },
+   "transaction_ids": {},
+   "excluded_count": 0
+  },
+  "metrics": {
+   "sales_total": {
+    "current": 7297750,
+    "previous": 7956250,
+    "change": -658500,
+    "pct_change": "-8.3"
+   },
+   "sales_credit": {
+    "current": 1052250,
+    "previous": 665000,
+    "change": 387250,
+    "pct_change": "58.2"
+   },
+   "customer_payments": {
+    "current": 0,
+    "previous": 55250,
+    "change": -55250,
+    "pct_change": "-100.0"
+   },
+   "expenses_total": {
+    "current": 149750,
+    "previous": 4057250,
+    "change": -3907500,
+    "pct_change": "-96.3"
+   },
+   "purchases_total": {
+    "current": 6290000,
+    "previous": 6835000,
+    "change": -545000,
+    "pct_change": "-8.0"
+   },
+   "estimated_profit": {
+    "current": 858000,
+    "previous": -2936000,
+    "change": 3794000,
+    "pct_change": "129.2"
+   },
+   "net_cash_flow": {
+    "current": -2269250,
+    "previous": -2200750,
+    "change": -68500,
+    "pct_change": "-3.1"
+   }
+  },
+  "length_warning": null
+ },
+ "attention": {
+  "unreconciled_count": 14,
+  "flags_by_code": {
+   "possible_duplicate": 1,
+   "future_date": 1,
+   "amount_outlier": 1,
+   "unreconciled": 14
+  },
+  "top_flags": [
+   {
+    "transaction_id": 594,
+    "code": "possible_duplicate",
+    "severity": "high",
+    "message_ar": "يبدو مكرراً: نفس التاريخ والمبلغ والوصف مثل المعاملة #593",
+    "related_ids": [
+     593
+    ]
+   },
+   {
+    "transaction_id": 650,
+    "code": "future_date",
+    "severity": "high",
+    "message_ar": "التاريخ 2026-10-18 بعد تاريخ اليوم",
+    "related_ids": []
+   },
+   {
+    "transaction_id": 595,
+    "code": "amount_outlier",
+    "severity": "medium",
+    "message_ar": "المبلغ 3,950,000 د.ع أكبر بكثير من المعتاد (الوسيط 420,000 د.ع)",
+    "related_ids": []
+   }
+  ],
+  "overdue_customers": [
+   {
+    "customer_id": 3,
+    "name": "علي صباح الجبوري",
+    "overdue_amount": 1876500,
+    "outstanding": 2541500,
+    "oldest_unpaid_date": "2026-07-14"
+   },
+   {
+    "customer_id": 1,
+    "name": "مطعم السلام (خالد فرحان)",
+    "overdue_amount": 1502000,
+    "outstanding": 3211750,
+    "oldest_unpaid_date": "2026-08-16"
+   },
+   {
+    "customer_id": 7,
+    "name": "حيدر ناصر التميمي",
+    "overdue_amount": 755500,
+    "outstanding": 755500,
+    "oldest_unpaid_date": "2026-07-05"
+   },
+   {
+    "customer_id": 2,
+    "name": "زينب حسين العبيدي",
+    "overdue_amount": 278750,
+    "outstanding": 644750,
+    "oldest_unpaid_date": "2026-08-28"
+   }
+  ]
+ }
+}

@@ -1,0 +1,14 @@
+{
+ "business_name": "بقالة الرافدين التجريبية",
+ "currency_display": "د.ع",
+ "credit_terms_days": 30,
+ "is_demo_data": true,
+ "reference_date": "2026-10-15",
+ "transactions_count": 650,
+ "ai": {
+  "provider": "groq",
+  "configured": false,
+  "message_ar": "مفتاح الذكاء الاصطناعي غير مضبوط؛ الحسابات المالية تعمل بشكل طبيعي لكن المساعد الذكي غير متاح."
+ },
+ "demo_notice_ar": "البيانات الحالية تجريبية (اصطناعية) لأغراض العرض فقط."
+}

@@ -1,0 +1,286 @@
+{
+ "customer": {
+  "id": 3,
+  "name": "علي صباح الجبوري",
+  "phone": null
+ },
+ "as_of": "2026-10-15",
+ "balance": {
+  "customer_id": 3,
+  "name": "علي صباح الجبوري",
+  "credit_sales_total": 3763500,
+  "payments_total": 1222000,
+  "outstanding": 2541500,
+  "overdue_amount": 1876500,
+  "last_payment_date": "2026-09-03",
+  "oldest_unpaid_date": "2026-07-14",
+  "open_invoices": [
+   {
+    "transaction_id": 148,
+    "date": "2026-07-14",
+    "original_amount": 215250,
+    "remaining": 198500,
+    "age_days": 93,
+    "overdue": true
+   },
+   {
+    "transaction_id": 157,
+    "date": "2026-07-16",
+    "original_amount": 334000,
+    "remaining": 334000,
+    "age_days": 91,
+    "overdue": true
+   },
+   {
+    "transaction_id": 198,
+    "date": "2026-07-24",
+    "original_amount": 343500,
+    "remaining": 343500,
+    "age_days": 83,
+    "overdue": true
+   },
+   {
+    "transaction_id": 255,
+    "date": "2026-08-02",
+    "original_amount": 248250,
+    "remaining": 248250,
+    "age_days": 74,
+    "overdue": true
+   },
+   {
+    "transaction_id": 317,
+    "date": "2026-08-13",
+    "original_amount": 115250,
+    "remaining": 115250,
+    "age_days": 63,
+    "overdue": true
+   },
+   {
+    "transaction_id": 346,
+    "date": "2026-08-18",
+    "original_amount": 203500,
+    "remaining": 203500,
+    "age_days": 58,
+    "overdue": true
+   },
+   {
+    "transaction_id": 426,
+    "date": "2026-09-02",
+    "original_amount": 100750,
+    "remaining": 100750,
+    "age_days": 43,
+    "overdue": true
+   },
+   {
+    "transaction_id": 454,
+    "date": "2026-09-07",
+    "original_amount": 332750,
+    "remaining": 332750,
+    "age_days": 38,
+    "overdue": true
+   },
+   {
+    "transaction_id": 593,
+    "date": "2026-10-05",
+    "original_amount": 332500,
+    "remaining": 332500,
+    "age_days": 10,
+    "overdue": false
+   },
+   {
+    "transaction_id": 594,
+    "date": "2026-10-05",
+    "original_amount": 332500,
+    "remaining": 332500,
+    "age_days": 10,
+    "overdue": false
+   }
+  ],
+  "credit_sale_ids": [
+   16,
+   55,
+   99,
+   114,
+   127,
+   148,
+   157,
+   198,
+   255,
+   317,
+   346,
+   426,
+   454,
+   593,
+   594
+  ],
+  "payment_ids": [
+   40,
+   149,
+   434
+  ]
+ },
+ "history": [
+  {
+   "transaction_id": 16,
+   "date": "2026-06-21",
+   "kind": "credit_sale",
+   "amount": 309750,
+   "description": "بيع آجل - فاتورة 1003",
+   "payment_method": "credit",
+   "balance_after": 309750
+  },
+  {
+   "transaction_id": 40,
+   "date": "2026-06-25",
+   "kind": "payment",
+   "amount": 232250,
+   "description": "تسديد من الزبون",
+   "payment_method": "cash",
+   "balance_after": 77500
+  },
+  {
+   "transaction_id": 55,
+   "date": "2026-06-28",
+   "kind": "credit_sale",
+   "amount": 148250,
+   "description": "بيع آجل - فاتورة 1012",
+   "payment_method": "credit",
+   "balance_after": 225750
+  },
+  {
+   "transaction_id": 99,
+   "date": "2026-07-06",
+   "kind": "credit_sale",
+   "amount": 229000,
+   "description": "بيع آجل - فاتورة 1019",
+   "payment_method": "credit",
+   "balance_after": 454750
+  },
+  {
+   "transaction_id": 114,
+   "date": "2026-07-08",
+   "kind": "credit_sale",
+   "amount": 233000,
+   "description": "بيع آجل - فاتورة 1024",
+   "payment_method": "credit",
+   "balance_after": 687750
+  },
+  {
+   "transaction_id": 127,
+   "date": "2026-07-10",
+   "kind": "credit_sale",
+   "amount": 285250,
+   "description": "بيع آجل - فاتورة 1027",
+   "payment_method": "credit",
+   "balance_after": 973000
+  },
+  {
+   "transaction_id": 148,
+   "date": "2026-07-14",
+   "kind": "credit_sale",
+   "amount": 215250,
+   "description": "بيع آجل - فاتورة 1030",
+   "payment_method": "credit",
+   "balance_after": 1188250
+  },
+  {
+   "transaction_id": 149,
+   "date": "2026-07-14",
+   "kind": "payment",
+   "amount": 475250,
+   "description": "تسديد من الزبون",
+   "payment_method": "cash",
+   "balance_after": 713000
+  },
+  {
+   "transaction_id": 157,
+   "date": "2026-07-16",
+   "kind": "credit_sale",
+   "amount": 334000,
+   "description": "بيع آجل - فاتورة 1032",
+   "payment_method": "credit",
+   "balance_after": 1047000
+  },
+  {
+   "transaction_id": 198,
+   "date": "2026-07-24",
+   "kind": "credit_sale",
+   "amount": 343500,
+   "description": "بيع آجل - فاتورة 1035",
+   "payment_method": "credit",
+   "balance_after": 1390500
+  },
+  {
+   "transaction_id": 255,
+   "date": "2026-08-02",
+   "kind": "credit_sale",
+   "amount": 248250,
+   "description": "بيع آجل - فاتورة 1051",
+   "payment_method": "credit",
+   "balance_after": 1638750
+  },
+  {
+   "transaction_id": 317,
+   "date": "2026-08-13",
+   "kind": "credit_sale",
+   "amount": 115250,
+   "description": "بيع آجل - فاتورة 1064",
+   "payment_method": "credit",
+   "balance_after": 1754000
+  },
+  {
+   "transaction_id": 346,
+   "date": "2026-08-18",
+   "kind": "credit_sale",
+   "amount": 203500,
+   "description": "بيع آجل - فاتورة 1070",
+   "payment_method": "credit",
+   "balance_after": 1957500
+  },
+  {
+   "transaction_id": 426,
+   "date": "2026-09-02",
+   "kind": "credit_sale",
+   "amount": 100750,
+   "description": "بيع آجل - فاتورة 1086",
+   "payment_method": "credit",
+   "balance_after": 2058250
+  },
+  {
+   "transaction_id": 434,
+   "date": "2026-09-03",
+   "kind": "payment",
+   "amount": 514500,
+   "description": "تسديد من الزبون",
+   "payment_method": "cash",
+   "balance_after": 1543750
+  },
+  {
+   "transaction_id": 454,
+   "date": "2026-09-07",
+   "kind": "credit_sale",
+   "amount": 332750,
+   "description": "بيع آجل - فاتورة 1089",
+   "payment_method": "credit",
+   "balance_after": 1876500
+  },
+  {
+   "transaction_id": 593,
+   "date": "2026-10-05",
+   "kind": "credit_sale",
+   "amount": 332500,
+   "description": "بيع آجل - فاتورة 1105",
+   "payment_method": "credit",
+   "balance_after": 2209000
+  },
+  {
+   "transaction_id": 594,
+   "date": "2026-10-05",
+   "kind": "credit_sale",
+   "amount": 332500,
+   "description": "بيع آجل - فاتورة 1105",
+   "payment_method": "credit",
+   "balance_after": 2541500
+  }
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "batch_id": 1,
+ "filename": "clean.csv",
+ "total_rows": 1,
+ "imported": 1,
+ "skipped_duplicates": 0,
+ "skipped_invalid": 0,
+ "created": {
+  "customers": [],
+  "suppliers": [],
+  "categories": []
+ }
+}

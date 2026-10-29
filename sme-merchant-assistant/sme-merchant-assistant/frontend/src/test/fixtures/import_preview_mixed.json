@@ -1,0 +1,167 @@
+{
+ "filename": "import_preview_mixed.csv",
+ "file_sha256": "43269ce2821358628120e481bad1105adfddb4e4f5cddaea69ba6245df9e4093",
+ "headers": [
+  "date",
+  "type",
+  "amount",
+  "description",
+  "reference",
+  "payment_method",
+  "customer",
+  "supplier",
+  "category",
+  "status"
+ ],
+ "suggested_mapping": {
+  "date": "date",
+  "type": "type",
+  "amount": "amount",
+  "description": "description",
+  "reference": "reference",
+  "payment_method": "payment_method",
+  "customer": "customer",
+  "supplier": "supplier",
+  "category": "category",
+  "status": "status"
+ },
+ "mapping": {
+  "date": "date",
+  "type": "type",
+  "amount": "amount",
+  "description": "description",
+  "reference": "reference",
+  "payment_method": "payment_method",
+  "customer": "customer",
+  "supplier": "supplier",
+  "category": "category",
+  "status": "status"
+ },
+ "needs_mapping": false,
+ "missing_required_fields": [],
+ "already_imported": false,
+ "counts": {
+  "total": 4,
+  "valid": 2,
+  "duplicate": 1,
+  "invalid": 1
+ },
+ "will_create": {
+  "customers": [
+   "زبون جديد للاختبار"
+  ],
+  "suppliers": [],
+  "categories": []
+ },
+ "rows": [
+  {
+   "row_number": 2,
+   "status": "valid",
+   "data": {
+    "date": "2026-10-16",
+    "type": "sale",
+    "amount_iqd": 125000,
+    "description": "بيع نقدي جديد",
+    "reference": "INV-X1",
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": "مبيعات",
+    "status": "reconciled"
+   },
+   "errors": [],
+   "warnings": [
+    "التاريخ بعد تاريخ اليوم"
+   ]
+  },
+  {
+   "row_number": 3,
+   "status": "valid",
+   "data": {
+    "date": "2026-10-16",
+    "type": "sale",
+    "amount_iqd": 300000,
+    "description": "بيع آجل جديد",
+    "reference": "INV-X2",
+    "payment_method": "credit",
+    "customer": "زبون جديد للاختبار",
+    "supplier": null,
+    "category": "مبيعات",
+    "status": "reconciled"
+   },
+   "errors": [],
+   "warnings": [
+    "التاريخ بعد تاريخ اليوم"
+   ]
+  },
+  {
+   "row_number": 4,
+   "status": "invalid",
+   "data": {
+    "date": "2026-10-16",
+    "type": "sale",
+    "amount": "abc",
+    "description": "مبلغ خاطئ",
+    "reference": "",
+    "payment_method": "cash",
+    "customer": "",
+    "supplier": "",
+    "category": "",
+    "status": ""
+   },
+   "errors": [
+    {
+     "field": "amount",
+     "message": "المبلغ غير صالح: 'abc'"
+    }
+   ],
+   "warnings": []
+  },
+  {
+   "row_number": 5,
+   "status": "duplicate",
+   "data": {
+    "date": "2026-06-18",
+    "type": "sale",
+    "amount_iqd": 802000,
+    "description": "مبيعات نقدية - الفترة الصباحية",
+    "reference": "DAY-20260618-AM",
+    "payment_method": "cash",
+    "customer": null,
+    "supplier": null,
+    "category": "مبيعات",
+    "status": "reconciled"
+   },
+   "errors": [],
+   "warnings": [
+    "موجودة مسبقاً في قاعدة البيانات وستُتخطى"
+   ]
+  }
+ ],
+ "errors": [
+  {
+   "row_number": 4,
+   "status": "invalid",
+   "data": {
+    "date": "2026-10-16",
+    "type": "sale",
+    "amount": "abc",
+    "description": "مبلغ خاطئ",
+    "reference": "",
+    "payment_method": "cash",
+    "customer": "",
+    "supplier": "",
+    "category": "",
+    "status": ""
+   },
+   "errors": [
+    {
+     "field": "amount",
+     "message": "المبلغ غير صالح: 'abc'"
+    }
+   ],
+   "warnings": []
+  }
+ ],
+ "errors_truncated": false
+}

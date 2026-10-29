@@ -1,0 +1,36 @@
+{
+ "filename": "import_preview_mapping.csv",
+ "file_sha256": "b1caf7ea084e88790c5f150d310477313d545f9cdfa0067d50b6c084eab16541",
+ "headers": [
+  "when",
+  "kind",
+  "iqd",
+  "memo",
+  "how"
+ ],
+ "suggested_mapping": {},
+ "mapping": {},
+ "needs_mapping": true,
+ "missing_required_fields": [
+  "date",
+  "type",
+  "amount",
+  "description",
+  "payment_method"
+ ],
+ "already_imported": false,
+ "counts": {
+  "total": 0,
+  "valid": 0,
+  "duplicate": 0,
+  "invalid": 0
+ },
+ "will_create": {
+  "customers": [],
+  "suppliers": [],
+  "categories": []
+ },
+ "rows": [],
+ "errors": [],
+ "errors_truncated": false
+}

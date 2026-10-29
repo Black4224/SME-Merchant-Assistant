@@ -1,0 +1,96 @@
+{
+ "items": [
+  {
+   "customer_id": 1,
+   "name": "مطعم السلام (خالد فرحان)",
+   "credit_sales_total": 7007750,
+   "payments_total": 3796000,
+   "outstanding": 3211750,
+   "overdue_amount": 1502000,
+   "last_payment_date": "2026-10-10",
+   "oldest_unpaid_date": "2026-08-16",
+   "open_invoices_count": 12
+  },
+  {
+   "customer_id": 3,
+   "name": "علي صباح الجبوري",
+   "credit_sales_total": 3763500,
+   "payments_total": 1222000,
+   "outstanding": 2541500,
+   "overdue_amount": 1876500,
+   "last_payment_date": "2026-09-03",
+   "oldest_unpaid_date": "2026-07-14",
+   "open_invoices_count": 10
+  },
+  {
+   "customer_id": 7,
+   "name": "حيدر ناصر التميمي",
+   "credit_sales_total": 755500,
+   "payments_total": 0,
+   "outstanding": 755500,
+   "overdue_amount": 755500,
+   "last_payment_date": null,
+   "oldest_unpaid_date": "2026-07-05",
+   "open_invoices_count": 7
+  },
+  {
+   "customer_id": 2,
+   "name": "زينب حسين العبيدي",
+   "credit_sales_total": 2044250,
+   "payments_total": 1399500,
+   "outstanding": 644750,
+   "overdue_amount": 278750,
+   "last_payment_date": "2026-09-16",
+   "oldest_unpaid_date": "2026-08-28",
+   "open_invoices_count": 6
+  },
+  {
+   "customer_id": 5,
+   "name": "مصطفى جاسم الساعدي",
+   "credit_sales_total": 2593250,
+   "payments_total": 2081750,
+   "outstanding": 511500,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-09-26",
+   "oldest_unpaid_date": "2026-09-19",
+   "open_invoices_count": 3
+  },
+  {
+   "customer_id": 4,
+   "name": "سارة محمد الربيعي",
+   "credit_sales_total": 1392750,
+   "payments_total": 964000,
+   "outstanding": 428750,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-09-16",
+   "oldest_unpaid_date": "2026-09-30",
+   "open_invoices_count": 3
+  },
+  {
+   "customer_id": 6,
+   "name": "أحمد كاظم الموسوي",
+   "credit_sales_total": 3813250,
+   "payments_total": 3436250,
+   "outstanding": 377000,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-10-08",
+   "oldest_unpaid_date": "2026-09-27",
+   "open_invoices_count": 2
+  },
+  {
+   "customer_id": 8,
+   "name": "نور الهدى خالد",
+   "credit_sales_total": 374250,
+   "payments_total": 374250,
+   "outstanding": 0,
+   "overdue_amount": 0,
+   "last_payment_date": "2026-10-02",
+   "oldest_unpaid_date": null,
+   "open_invoices_count": 0
+  }
+ ],
+ "total": 8,
+ "page": 1,
+ "page_size": 100,
+ "pages": 1
+}

@@ -1,0 +1,582 @@
+{
+ "items": [
+  {
+   "id": 650,
+   "date": "2026-10-18",
+   "type": "sale",
+   "amount_iqd": 275000,
+   "description": "مبيعات نقدية - تاريخ مُدخل بالخطأ",
+   "reference": "DAY-TYPO-01",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "unreconciled",
+   "flags": [
+    {
+     "transaction_id": 650,
+     "code": "future_date",
+     "severity": "high",
+     "message_ar": "التاريخ 2026-10-18 بعد تاريخ اليوم",
+     "related_ids": []
+    },
+    {
+     "transaction_id": 650,
+     "code": "unreconciled",
+     "severity": "low",
+     "message_ar": "لم تتم مطابقتها بعد",
+     "related_ids": []
+    }
+   ],
+   "created_at": "2026-10-27T12:14:35.519958",
+   "updated_at": "2026-10-27T12:14:35.519960"
+  },
+  {
+   "id": 649,
+   "date": "2026-10-15",
+   "type": "expense",
+   "amount_iqd": 11000,
+   "description": "مصاريف نثرية (أكياس، تنظيف)",
+   "reference": null,
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 9,
+    "name": "مصاريف متفرقة"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.519320",
+   "updated_at": "2026-10-27T12:14:35.519322"
+  },
+  {
+   "id": 648,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 1935000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-340",
+   "payment_method": "bank",
+   "customer": null,
+   "supplier": {
+    "id": 2,
+    "name": "مؤسسة دجلة للمنظفات"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.518735",
+   "updated_at": "2026-10-27T12:14:35.518736"
+  },
+  {
+   "id": 647,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 555000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-339",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": {
+    "id": 1,
+    "name": "مخزن الرافدين بالجملة"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.518168",
+   "updated_at": "2026-10-27T12:14:35.518170"
+  },
+  {
+   "id": 646,
+   "date": "2026-10-15",
+   "type": "supplier_payment",
+   "amount_iqd": 2575000,
+   "description": "تسديد دفعة للمورد",
+   "reference": "PAY-338",
+   "payment_method": "bank",
+   "customer": null,
+   "supplier": {
+    "id": 3,
+    "name": "شركة النهرين للمواد الغذائية"
+   },
+   "category": null,
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.517577",
+   "updated_at": "2026-10-27T12:14:35.517579"
+  },
+  {
+   "id": 645,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 260750,
+   "description": "بيع آجل - فاتورة 1112",
+   "reference": "INV-1112",
+   "payment_method": "credit",
+   "customer": {
+    "id": 1,
+    "name": "مطعم السلام (خالد فرحان)"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.516980",
+   "updated_at": "2026-10-27T12:14:35.516982"
+  },
+  {
+   "id": 644,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 86750,
+   "description": "بيع آجل - فاتورة 1111",
+   "reference": "INV-1111",
+   "payment_method": "credit",
+   "customer": {
+    "id": 2,
+    "name": "زينب حسين العبيدي"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.516377",
+   "updated_at": "2026-10-27T12:14:35.516378"
+  },
+  {
+   "id": 643,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 104500,
+   "description": "بيع بالدفع الإلكتروني عبر فاست باي",
+   "reference": "FP-276712",
+   "payment_method": "digital",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "unreconciled",
+   "flags": [
+    {
+     "transaction_id": 643,
+     "code": "unreconciled",
+     "severity": "low",
+     "message_ar": "لم تتم مطابقتها بعد",
+     "related_ids": []
+    }
+   ],
+   "created_at": "2026-10-27T12:14:35.515789",
+   "updated_at": "2026-10-27T12:14:35.515791"
+  },
+  {
+   "id": 642,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 779500,
+   "description": "مبيعات نقدية - الفترة المسائية",
+   "reference": "DAY-20261015-PM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.515146",
+   "updated_at": "2026-10-27T12:14:35.515148"
+  },
+  {
+   "id": 641,
+   "date": "2026-10-15",
+   "type": "sale",
+   "amount_iqd": 811000,
+   "description": "مبيعات نقدية - الفترة الصباحية",
+   "reference": "DAY-20261015-AM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.514508",
+   "updated_at": "2026-10-27T12:14:35.514510"
+  },
+  {
+   "id": 640,
+   "date": "2026-10-14",
+   "type": "supplier_purchase",
+   "amount_iqd": 3300000,
+   "description": "شراء بضاعة - طلبية 34",
+   "reference": "PO-34",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": {
+    "id": 1,
+    "name": "مخزن الرافدين بالجملة"
+   },
+   "category": {
+    "id": 2,
+    "name": "مشتريات بضاعة"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.513944",
+   "updated_at": "2026-10-27T12:14:35.513946"
+  },
+  {
+   "id": 639,
+   "date": "2026-10-14",
+   "type": "sale",
+   "amount_iqd": 129250,
+   "description": "بيع آجل - فاتورة 1110",
+   "reference": "INV-1110",
+   "payment_method": "credit",
+   "customer": {
+    "id": 4,
+    "name": "سارة محمد الربيعي"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.513362",
+   "updated_at": "2026-10-27T12:14:35.513364"
+  },
+  {
+   "id": 638,
+   "date": "2026-10-14",
+   "type": "sale",
+   "amount_iqd": 148000,
+   "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+   "reference": "ZC-686976",
+   "payment_method": "digital",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "unreconciled",
+   "flags": [
+    {
+     "transaction_id": 638,
+     "code": "unreconciled",
+     "severity": "low",
+     "message_ar": "لم تتم مطابقتها بعد",
+     "related_ids": []
+    }
+   ],
+   "created_at": "2026-10-27T12:14:35.512778",
+   "updated_at": "2026-10-27T12:14:35.512780"
+  },
+  {
+   "id": 637,
+   "date": "2026-10-14",
+   "type": "sale",
+   "amount_iqd": 559750,
+   "description": "مبيعات نقدية - الفترة المسائية",
+   "reference": "DAY-20261014-PM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.512173",
+   "updated_at": "2026-10-27T12:14:35.512175"
+  },
+  {
+   "id": 636,
+   "date": "2026-10-14",
+   "type": "sale",
+   "amount_iqd": 404500,
+   "description": "مبيعات نقدية - الفترة الصباحية",
+   "reference": "DAY-20261014-AM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.511507",
+   "updated_at": "2026-10-27T12:14:35.511509"
+  },
+  {
+   "id": 635,
+   "date": "2026-10-13",
+   "type": "sale",
+   "amount_iqd": 364000,
+   "description": "بيع آجل - فاتورة 1109",
+   "reference": "INV-1109",
+   "payment_method": "credit",
+   "customer": {
+    "id": 1,
+    "name": "مطعم السلام (خالد فرحان)"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.510825",
+   "updated_at": "2026-10-27T12:14:35.510828"
+  },
+  {
+   "id": 634,
+   "date": "2026-10-13",
+   "type": "sale",
+   "amount_iqd": 211500,
+   "description": "بيع آجل - فاتورة 1108",
+   "reference": "INV-1108",
+   "payment_method": "credit",
+   "customer": {
+    "id": 6,
+    "name": "أحمد كاظم الموسوي"
+   },
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.510113",
+   "updated_at": "2026-10-27T12:14:35.510115"
+  },
+  {
+   "id": 633,
+   "date": "2026-10-13",
+   "type": "sale",
+   "amount_iqd": 473250,
+   "description": "مبيعات نقدية - الفترة المسائية",
+   "reference": "DAY-20261013-PM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.509460",
+   "updated_at": "2026-10-27T12:14:35.509462"
+  },
+  {
+   "id": 632,
+   "date": "2026-10-13",
+   "type": "sale",
+   "amount_iqd": 374250,
+   "description": "مبيعات نقدية - الفترة الصباحية",
+   "reference": "DAY-20261013-AM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.508859",
+   "updated_at": "2026-10-27T12:14:35.508861"
+  },
+  {
+   "id": 631,
+   "date": "2026-10-12",
+   "type": "expense",
+   "amount_iqd": 23750,
+   "description": "مصاريف نثرية (أكياس، تنظيف)",
+   "reference": null,
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 9,
+    "name": "مصاريف متفرقة"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.508249",
+   "updated_at": "2026-10-27T12:14:35.508251"
+  },
+  {
+   "id": 630,
+   "date": "2026-10-12",
+   "type": "expense",
+   "amount_iqd": 87750,
+   "description": "أجور نقل البضاعة الأسبوعية",
+   "reference": null,
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 6,
+    "name": "نقل"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.507573",
+   "updated_at": "2026-10-27T12:14:35.507575"
+  },
+  {
+   "id": 629,
+   "date": "2026-10-12",
+   "type": "sale",
+   "amount_iqd": 298000,
+   "description": "بيع بالدفع الإلكتروني عبر زين كاش",
+   "reference": "ZC-112285",
+   "payment_method": "digital",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.506859",
+   "updated_at": "2026-10-27T12:14:35.506861"
+  },
+  {
+   "id": 628,
+   "date": "2026-10-12",
+   "type": "sale",
+   "amount_iqd": 661500,
+   "description": "مبيعات نقدية - الفترة المسائية",
+   "reference": "DAY-20261012-PM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.506144",
+   "updated_at": "2026-10-27T12:14:35.506146"
+  },
+  {
+   "id": 627,
+   "date": "2026-10-12",
+   "type": "sale",
+   "amount_iqd": 430500,
+   "description": "مبيعات نقدية - الفترة الصباحية",
+   "reference": "DAY-20261012-AM",
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 1,
+    "name": "مبيعات"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.505499",
+   "updated_at": "2026-10-27T12:14:35.505501"
+  },
+  {
+   "id": 626,
+   "date": "2026-10-11",
+   "type": "expense",
+   "amount_iqd": 27250,
+   "description": "مصاريف نثرية (أكياس، تنظيف)",
+   "reference": null,
+   "payment_method": "cash",
+   "customer": null,
+   "supplier": null,
+   "category": {
+    "id": 9,
+    "name": "مصاريف متفرقة"
+   },
+   "source": "seed",
+   "import_batch_id": null,
+   "reconciliation_status": "reconciled",
+   "flags": [],
+   "created_at": "2026-10-27T12:14:35.504913",
+   "updated_at": "2026-10-27T12:14:35.504915"
+  }
+ ],
+ "total": 650,
+ "page": 1,
+ "page_size": 25,
+ "pages": 26
+}

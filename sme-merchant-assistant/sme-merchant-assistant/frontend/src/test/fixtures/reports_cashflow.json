@@ -1,0 +1,40 @@
+{
+ "is_estimate": true,
+ "disclaimer_ar": "هذا تقدير مبني على نشاط الأسابيع الماضية وليس ضماناً لدخل مستقبلي.",
+ "method": "average daily net cash over lookback x horizon",
+ "reference_date": "2026-10-15",
+ "lookback": {
+  "start": "2026-08-21",
+  "end": "2026-10-15",
+  "days": 56
+ },
+ "horizon_days": 30,
+ "history_days_available": 120,
+ "sufficient_data": true,
+ "outstanding_receivables": 8470750,
+ "receivables_note_ar": "ديون الزبائن غير محسوبة كمتوقع تحصيله؛ هي مبلغ مستحق فقط.",
+ "avg_daily_cash_in": 1365455,
+ "avg_daily_cash_out": 1152210,
+ "projected_net_change": 6397366,
+ "low": 2549214,
+ "high": 10245518,
+ "checkpoints": [
+  {
+   "day": 7,
+   "cumulative_net": 1492719
+  },
+  {
+   "day": 14,
+   "cumulative_net": 2985438
+  },
+  {
+   "day": 21,
+   "cumulative_net": 4478156
+  },
+  {
+   "day": 30,
+   "cumulative_net": 6397366
+  }
+ ],
+ "note_ar": "هذا تقدير مبني على نشاط الأسابيع الماضية وليس ضماناً لدخل مستقبلي."
+}
