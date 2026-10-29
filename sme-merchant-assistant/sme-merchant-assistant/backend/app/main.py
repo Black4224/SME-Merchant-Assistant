@@ -7,7 +7,7 @@ from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 
-from app.api import customers, imports, reports, system, transactions
+from app.api import assistant, customers, imports, reports, system, transactions
 from app.config import get_settings
 from app.database import init_db
 from app.errors import AppError
@@ -66,7 +66,7 @@ def create_app() -> FastAPI:
         log.exception("unhandled error")
         return _error(500, "internal_error", "حدث خطأ غير متوقع")
 
-    for r in (system.router, transactions.router, customers.router, imports.router, reports.router):
+    for r in (system.router, transactions.router, customers.router, imports.router, reports.router, assistant.router):
         app.include_router(r)
     return app
 

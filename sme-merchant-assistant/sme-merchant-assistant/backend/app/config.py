@@ -9,6 +9,12 @@ PROJECT_ROOT = BACKEND_DIR.parent
 DATA_DIR = PROJECT_ROOT / "data"
 
 
+def _real(value: str | None) -> bool:
+    """False for empty values and for the placeholders shipped in .env.example (so copying that file unchanged is harmless)."""
+    v = (value or "").strip().lower()
+    return bool(v) and not (v.startswith("your_") or v.endswith("_here") or v in {"changeme", "xxx", "todo"})
+
+
 class Settings(BaseSettings):
     model_config = SettingsConfigDict(
         env_file=(PROJECT_ROOT / ".env", BACKEND_DIR / ".env"),
@@ -21,10 +27,14 @@ class Settings(BaseSettings):
     ai_provider: str = "groq"
     groq_api_key: str | None = None
     groq_model: str | None = None
+    # Opt-in: on a TRANSIENT provider failure, answer with the offline rules mode and label the reply as degraded.
+    ai_fallback_to_rules: bool = False
 
     @property
     def ai_configured(self) -> bool:
-        return bool(self.groq_api_key and self.groq_model)
+        if self.ai_provider == "rules":  # offline keyword mode needs no key
+            return True
+        return _real(self.groq_api_key) and _real(self.groq_model)
 
 
 @lru_cache

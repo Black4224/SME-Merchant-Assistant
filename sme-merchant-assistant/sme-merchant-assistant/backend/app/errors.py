@@ -31,3 +31,13 @@ class Unprocessable(AppError):
 class PayloadTooLarge(AppError):
     status_code = 413
     code = "payload_too_large"
+
+
+class ServiceUnavailable(AppError):
+    status_code = 503
+    code = "service_unavailable"
+
+
+class BadGateway(AppError):
+    status_code = 502
+    code = "bad_gateway"
