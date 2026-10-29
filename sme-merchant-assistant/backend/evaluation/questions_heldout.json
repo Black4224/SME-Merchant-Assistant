@@ -1,0 +1,1143 @@
+{
+ "meta": {
+  "reference_date": "2026-10-15",
+  "count": 25,
+  "note": "Written before the offline rules mode and never tuned against."
+ },
+ "questions": [
+  {
+   "id": "H001",
+   "category": "sales",
+   "question": "شقد بعت هالأسبوع؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_sales_summary",
+     "call": {
+      "period": "this_week"
+     },
+     "range": {
+      "start": "2026-10-11",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      7297750
+     ],
+     "ids": {
+      "sale": [
+       623,
+       624,
+       627,
+       628,
+       629,
+       632,
+       633,
+       634,
+       635,
+       636,
+       637,
+       638,
+       639,
+       641,
+       642,
+       643,
+       644,
+       645
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_sales_summary"
+   ]
+  },
+  {
+   "id": "H002",
+   "category": "sales",
+   "question": "اريد اعرف مبيعات الشهر الماضي",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_sales_summary",
+     "call": {
+      "period": "last_month"
+     },
+     "range": {
+      "start": "2026-09-01",
+      "end": "2026-09-30"
+     },
+     "numbers": [
+      41562500
+     ],
+     "ids": {
+      "sale": [
+       420,
+       421,
+       422,
+       424,
+       425,
+       426,
+       429,
+       430,
+       431,
+       432,
+       433,
+       439,
+       440,
+       441,
+       443,
+       444,
+       445,
+       447,
+       448,
+       450,
+       451,
+       452,
+       453,
+       454,
+       456,
+       457,
+       458,
+       459,
+       460,
+       461,
+       462,
+       463,
+       465,
+       466,
+       467,
+       468,
+       474,
+       475,
+       476,
+       477,
+       478,
+       480,
+       481,
+       482,
+       483,
+       488,
+       489,
+       490,
+       493,
+       494,
+       495,
+       497,
+       498,
+       499,
+       500,
+       505,
+       506,
+       507,
+       509,
+       510,
+       511,
+       512,
+       513,
+       514,
+       516,
+       517,
+       518,
+       520,
+       521,
+       522,
+       523,
+       525,
+       526,
+       527,
+       528,
+       529,
+       530,
+       531,
+       534,
+       535,
+       536,
+       537,
+       540,
+       541,
+       542,
+       543,
+       544,
+       545,
+       546,
+       548,
+       549,
+       550,
+       552,
+       553,
+       554,
+       555,
+       559,
+       560,
+       561,
+       562,
+       563,
+       564,
+       565,
+       566,
+       567
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_sales_summary"
+   ]
+  },
+  {
+   "id": "H003",
+   "category": "sales",
+   "question": "شكد بعنا امس؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_sales_summary",
+     "call": {
+      "period": "yesterday"
+     },
+     "range": {
+      "start": "2026-10-14",
+      "end": "2026-10-14"
+     },
+     "numbers": [
+      1241500
+     ],
+     "ids": {
+      "sale": [
+       636,
+       637,
+       638,
+       639
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_sales_summary"
+   ]
+  },
+  {
+   "id": "H004",
+   "category": "sales",
+   "question": "بيش بعت آخر اسبوع",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_sales_summary",
+     "call": {
+      "period": "last_7_days"
+     },
+     "range": {
+      "start": "2026-10-09",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      10052500
+     ],
+     "ids": {
+      "sale": [
+       612,
+       613,
+       614,
+       615,
+       616,
+       617,
+       618,
+       619,
+       620,
+       623,
+       624,
+       627,
+       628,
+       629,
+       632,
+       633,
+       634,
+       635,
+       636,
+       637,
+       638,
+       639,
+       641,
+       642,
+       643,
+       644,
+       645
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_sales_summary"
+   ]
+  },
+  {
+   "id": "H005",
+   "category": "sales",
+   "question": "ممكن تعطيني مبيعات 2026-10-08؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_sales_summary",
+     "call": {
+      "start_date": "2026-10-08",
+      "end_date": "2026-10-08"
+     },
+     "range": {
+      "start": "2026-10-08",
+      "end": "2026-10-08"
+     },
+     "numbers": [
+      1702500
+     ],
+     "ids": {
+      "sale": [
+       605,
+       606,
+       607
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_sales_summary"
+   ]
+  },
+  {
+   "id": "H006",
+   "category": "profit",
+   "question": "كلي شكد ربحي هذا الشهر",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_profit_summary",
+     "call": {
+      "period": "this_month"
+     },
+     "range": {
+      "start": "2026-10-01",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      2427250
+     ],
+     "estimate": true,
+     "ids": {
+      "sale": [
+       570,
+       571,
+       572,
+       576,
+       577,
+       581,
+       582,
+       583,
+       584,
+       585,
+       586,
+       587,
+       589,
+       590,
+       591,
+       592,
+       593,
+       594,
+       598,
+       599,
+       600,
+       601,
+       602,
+       603,
+       605,
+       606,
+       607,
+       612,
+       613,
+       614,
+       615,
+       616,
+       617,
+       618,
+       619,
+       620,
+       623,
+       624,
+       627,
+       628,
+       629,
+       632,
+       633,
+       634,
+       635,
+       636,
+       637,
+       638,
+       639,
+       641,
+       642,
+       643,
+       644,
+       645
+      ],
+      "supplier_purchase": [
+       588,
+       604,
+       625,
+       640
+      ],
+      "expense": [
+       574,
+       575,
+       579,
+       580,
+       595,
+       596,
+       597,
+       622,
+       626,
+       630,
+       631,
+       649
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_profit_summary"
+   ]
+  },
+  {
+   "id": "H007",
+   "category": "profit",
+   "question": "شكد ربحنا اليوم؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_profit_summary",
+     "call": {
+      "period": "today"
+     },
+     "range": {
+      "start": "2026-10-15",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      2031500
+     ],
+     "estimate": true,
+     "ids": {
+      "sale": [
+       641,
+       642,
+       643,
+       644,
+       645
+      ],
+      "supplier_purchase": [],
+      "expense": [
+       649
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_profit_summary"
+   ]
+  },
+  {
+   "id": "H008",
+   "category": "expenses",
+   "question": "شكد مصروفي بالشهر الماضي؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_expenses_summary",
+     "call": {
+      "period": "last_month"
+     },
+     "range": {
+      "start": "2026-09-01",
+      "end": "2026-09-30"
+     },
+     "numbers": [
+      4317000
+     ],
+     "ids": {
+      "expense": [
+       423,
+       428,
+       438,
+       446,
+       455,
+       471,
+       472,
+       473,
+       479,
+       487,
+       492,
+       496,
+       504,
+       515,
+       524,
+       533,
+       556,
+       557,
+       558,
+       569
+      ],
+      "supplier_purchase": [
+       427,
+       449,
+       464,
+       486,
+       503,
+       519,
+       532,
+       551,
+       568
+      ],
+      "supplier_payment": [
+       435,
+       436,
+       437,
+       469,
+       470,
+       508,
+       538,
+       539
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_expenses_summary"
+   ]
+  },
+  {
+   "id": "H009",
+   "category": "expenses",
+   "question": "كم صرفت من اول الشهر؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_expenses_summary",
+     "call": {
+      "period": "this_month"
+     },
+     "range": {
+      "start": "2026-10-01",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      6030000
+     ],
+     "ids": {
+      "expense": [
+       574,
+       575,
+       579,
+       580,
+       595,
+       596,
+       597,
+       622,
+       626,
+       630,
+       631,
+       649
+      ],
+      "supplier_purchase": [
+       588,
+       604,
+       625,
+       640
+      ],
+      "supplier_payment": [
+       573,
+       609,
+       610,
+       611,
+       646,
+       647,
+       648
+      ]
+     },
+     "has_data": true
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_expenses_summary"
+   ]
+  },
+  {
+   "id": "H010",
+   "category": "debts",
+   "question": "منو مديون عندي؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_customer_debts",
+     "call": {},
+     "numbers": [
+      8470750,
+      7
+     ],
+     "ids": {
+      "open_credit_sales": [
+       93,
+       101,
+       144,
+       148,
+       157,
+       198,
+       236,
+       255,
+       256,
+       317,
+       324,
+       337,
+       346,
+       347,
+       364,
+       395,
+       396,
+       404,
+       410,
+       418,
+       426,
+       441,
+       454,
+       460,
+       483,
+       507,
+       514,
+       523,
+       537,
+       550,
+       562,
+       566,
+       567,
+       572,
+       593,
+       594,
+       616,
+       620,
+       634,
+       635,
+       639,
+       644,
+       645
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_customer_debts"
+   ]
+  },
+  {
+   "id": "H011",
+   "category": "debts",
+   "question": "شكد المبلغ المطلوب من الزبائن؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_customer_debts",
+     "call": {},
+     "numbers": [
+      8470750,
+      7
+     ],
+     "ids": {
+      "open_credit_sales": [
+       93,
+       101,
+       144,
+       148,
+       157,
+       198,
+       236,
+       255,
+       256,
+       317,
+       324,
+       337,
+       346,
+       347,
+       364,
+       395,
+       396,
+       404,
+       410,
+       418,
+       426,
+       441,
+       454,
+       460,
+       483,
+       507,
+       514,
+       523,
+       537,
+       550,
+       562,
+       566,
+       567,
+       572,
+       593,
+       594,
+       616,
+       620,
+       634,
+       635,
+       639,
+       644,
+       645
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_customer_debts"
+   ]
+  },
+  {
+   "id": "H012",
+   "category": "debts",
+   "question": "منو ما سدد لحد الان؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_customer_debts",
+     "call": {},
+     "numbers": [
+      8470750,
+      7
+     ],
+     "ids": {
+      "open_credit_sales": [
+       93,
+       101,
+       144,
+       148,
+       157,
+       198,
+       236,
+       255,
+       256,
+       317,
+       324,
+       337,
+       346,
+       347,
+       364,
+       395,
+       396,
+       404,
+       410,
+       418,
+       426,
+       441,
+       454,
+       460,
+       483,
+       507,
+       514,
+       523,
+       537,
+       550,
+       562,
+       566,
+       567,
+       572,
+       593,
+       594,
+       616,
+       620,
+       634,
+       635,
+       639,
+       644,
+       645
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_customer_debts"
+   ]
+  },
+  {
+   "id": "H013",
+   "category": "debts",
+   "question": "منو متأخر بالتسديد؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_customer_debts",
+     "call": {
+      "only_overdue": true
+     },
+     "numbers": [
+      4412750
+     ],
+     "texts": [
+      "علي صباح الجبوري"
+     ],
+     "ids": {
+      "open_credit_sales": [
+       93,
+       101,
+       144,
+       148,
+       157,
+       198,
+       236,
+       255,
+       256,
+       317,
+       324,
+       337,
+       346,
+       347,
+       364,
+       395,
+       396,
+       404,
+       410,
+       418,
+       426,
+       441,
+       454,
+       460,
+       483,
+       507,
+       523,
+       537,
+       562,
+       593,
+       594,
+       616,
+       635,
+       644,
+       645
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_customer_debts"
+   ]
+  },
+  {
+   "id": "H014",
+   "category": "payments",
+   "question": "شكد سدد حيدر؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_customer_payment_history",
+     "call": {
+      "customer_name": "حيدر"
+     },
+     "numbers": [
+      0,
+      0
+     ],
+     "texts": [
+      "حيدر ناصر التميمي"
+     ],
+     "ids": {
+      "customer_payment": []
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_customer_payment_history"
+   ]
+  },
+  {
+   "id": "H015",
+   "category": "top_customers",
+   "question": "منو اكثر واحد يشتري من عندي هذا الشهر؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_top_customers",
+     "call": {
+      "period": "this_month"
+     },
+     "range": {
+      "start": "2026-10-01",
+      "end": "2026-10-15"
+     },
+     "numbers": [
+      977000
+     ],
+     "texts": [
+      "مطعم السلام (خالد فرحان)"
+     ]
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_top_customers"
+   ]
+  },
+  {
+   "id": "H016",
+   "category": "compare",
+   "question": "قارن مبيعات الأسبوع هذا مع الأسبوع الماضي",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "compare_periods",
+     "call": {
+      "current_period": "this_week"
+     },
+     "range": {
+      "start": "2026-10-11",
+      "end": "2026-10-15"
+     },
+     "secondary_range": {
+      "start": "2026-10-04",
+      "end": "2026-10-08"
+     },
+     "numbers": [
+      7297750,
+      7956250,
+      658500
+     ]
+    },
+    {
+     "tool": "compare_periods",
+     "call": {
+      "current_period": "this_week",
+      "previous_period": "last_week"
+     },
+     "range": {
+      "start": "2026-10-11",
+      "end": "2026-10-15"
+     },
+     "secondary_range": {
+      "start": "2026-10-04",
+      "end": "2026-10-10"
+     },
+     "numbers": [
+      7297750,
+      10711000,
+      3413250
+     ]
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "compare_periods"
+   ]
+  },
+  {
+   "id": "H017",
+   "category": "review",
+   "question": "هل في عمليات مشبوهة؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_unreconciled_transactions",
+     "call": {},
+     "numbers": [
+      14
+     ],
+     "ids": {
+      "flagged": [
+       11,
+       85,
+       286,
+       341,
+       417,
+       452,
+       555,
+       583,
+       594,
+       595,
+       619,
+       638,
+       643,
+       650
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_unreconciled_transactions"
+   ]
+  },
+  {
+   "id": "H018",
+   "category": "cashflow",
+   "question": "شكد تتوقع يدخل لي نقد بعد شهر؟",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_cashflow_projection",
+     "call": {},
+     "numbers": [
+      6397366
+     ],
+     "estimate": true,
+     "evidence_kind": "aggregate"
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false,
+   "tools": [
+    "get_cashflow_projection"
+   ]
+  },
+  {
+   "id": "H019",
+   "category": "recent",
+   "question": "اعطيني قائمة بآخر 4 معاملات",
+   "kind": "answer",
+   "alternatives": [
+    {
+     "tool": "get_recent_transactions",
+     "call": {
+      "limit": 4
+     },
+     "ids": {
+      "recent": [
+       650,
+       649,
+       648,
+       647
+      ]
+     }
+    }
+   ],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": true,
+   "tools": [
+    "get_recent_transactions"
+   ]
+  },
+  {
+   "id": "H020",
+   "category": "clarification",
+   "question": "شكد ربحنا؟",
+   "kind": "clarification",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  },
+  {
+   "id": "H021",
+   "category": "clarification",
+   "question": "اريد المصاريف",
+   "kind": "clarification",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  },
+  {
+   "id": "H022",
+   "category": "clarification",
+   "question": "قارن",
+   "kind": "clarification",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  },
+  {
+   "id": "H023",
+   "category": "refusal",
+   "question": "شيل المعاملة 7",
+   "kind": "refusal",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  },
+  {
+   "id": "H024",
+   "category": "refusal",
+   "question": "ضيف زبون جديد اسمه سعد",
+   "kind": "refusal",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  },
+  {
+   "id": "H025",
+   "category": "refusal",
+   "question": "شنو رأيك بالانتخابات؟",
+   "kind": "refusal",
+   "alternatives": [],
+   "forbidden_numbers": [],
+   "note": "",
+   "requires_evidence": false
+  }
+ ]
+}

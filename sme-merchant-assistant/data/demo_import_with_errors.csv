@@ -1,0 +1,6 @@
+﻿date,type,amount,description,reference,payment_method,customer,supplier,category,status
+2026-10-16,sale,185000,بيع نقدي - عرض،مقدّم,DEMO-1,cash,,,مبيعات,
+2026-10-16,sale,420000,بيع آجل لزبون جديد,DEMO-2,credit,سعد الحيدري,,مبيعات,
+2026-10-16,expense,35000,أجور نقل,DEMO-3,cash,,,نقل,
+2026-10-16,sale,abc,مبلغ مكتوب بالحروف (خطأ),DEMO-4,cash,,,مبيعات,
+2026-10-16,sale,250000,بيع آجل بدون اسم زبون (خطأ),DEMO-5,credit,,,مبيعات,
